@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 9, 2014, 11:40:24 AM
+    Author     : Edgar Zakaryan <zakaryan.edgar@gmail.com>
+*/
+
+#content {
+    width: 320px;
+    height: 500px;
+    background: blueviolet;
+}
+
+.QAFlashCard {
+    height: 100%;
+    width: 320px;
+    background: blueviolet;
+    position: absolute;
+}
+
+.QAFlashCard > p{
+    font-size: 20px;
+    color: #fff; 
+}
+
+.QAFlashCard .answer {
+    display: none;
+    background-color: #fff;
+    height: 100%;
+}
+.QAFlashCard .answer .short{
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal; 
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    padding: 10px;
+    background: blueviolet;
+}
+
+.QAFlashCard .answer .long {
+    width: 100%;
+    background-color: #fff;
+}
+
+.QAFlashCard .answer .bonus {
+    width: 100%;
+    background-color: #fff;
+}
+
+.QAFlashCard li {
+    list-style: none;
+}
+
+.bonus[data-type='toDo'] li:before{
+    font-family: 'FontAwesome';
+    content: '\f10d';
+    margin:0 5px 0 -15px;
+}
+
+.bonus[data-type='didYouKnow'] li:before{
+    /*display: none;*/
+    font-family: 'FontAwesome';
+    content: '\f128';
+    margin:0 5px 0 -15px;
+}
+
+.QAFlashCard.end .title{
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal; 
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    padding: 10px;
+    background: blueviolet;
+}
+
+.QAFlashCard.end .title p{
+    font-size: 20px;
+    color: #fff; 
+}

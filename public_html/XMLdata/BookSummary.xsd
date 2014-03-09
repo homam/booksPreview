@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="BookSummary" nillable="true" type="BookSummary" />
+  <xs:complexType name="BookSummary">
+    <xs:sequence>
+      <xs:element minOccurs="1" maxOccurs="1" name="meta" type="Meta" />
+      <xs:element minOccurs="1" maxOccurs="1" name="Title" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="comments" type="Comments"/>
+      <xs:element minOccurs="1" maxOccurs="1" name="introduction" type="Chapter"/>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="chapter" type="Chapter" />
+    </xs:sequence>
+    <xs:attribute name="schemaLocation" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="Meta">
+    <xs:attribute name="id" type="xs:int" use="required" />
+    <xs:attribute name="key" type="xs:string" />
+    <xs:attribute name="viewType" type="xs:string" />
+  </xs:complexType>
+  <xs:complexType name="Chapter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="title" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="QAFlashCard" type="QAFlashCard" />
+    </xs:sequence>
+    <xs:attribute name="key" type="xs:string" />
+    <xs:attribute name="web" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="QAFlashCard">
+    <xs:sequence>
+      <xs:element name="FCQuestion" type="FCQuestion"/>
+      <xs:element name="FCAnswer" type="FCAnswer"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="quiz" type="Quiz" />
+    </xs:sequence>
+    <xs:attribute name="selected" type="xs:string" use="optional"/>
+  </xs:complexType>  
+  <xs:complexType name="FCQuestion">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="FCAnswer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="image" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="short" type="ShortAnswer"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="long" type="LongAnswer"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="bonus" type="ShortAnswer"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ShortAnswer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="text" type="xs:string"/>
+    </xs:sequence>
+    <xs:attribute name="type" type="xs:string"/>
+  </xs:complexType>  
+  <xs:complexType name="LongAnswer">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element minOccurs="0" maxOccurs="1" name="text" type="xs:string" />
+        <xs:element minOccurs="0" maxOccurs="1" name="simpleList" type="SimpleList"/>
+        <xs:element minOccurs="0" maxOccurs="1" name="simpleOList" type="SimpleList"/>
+      </xs:choice>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Quiz">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="question" type="Question" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Question">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="title" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="1" name="image" type="xs:string" />
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="option" type="Option" />
+    </xs:sequence>
+    <xs:attribute name="layout" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="Option" mixed="true">
+    <xs:sequence minOccurs="0" maxOccurs="1">
+      <xs:element minOccurs="0" maxOccurs="1" name="explaination" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="correct" type="xs:boolean" use="required" />
+    <xs:attribute name="image" type="xs:string" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="Comments">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="comment" type="Comment"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Comment">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="to" type="Editor"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="messages" type="Messages"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="optional"/>
+    <xs:attribute name="editorId" type="xs:string" use="optional"/>
+    <xs:attribute name="editorName" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="Editor">
+    <xs:attribute name="id" type="xs:string" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="Messages">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="message" type="Message"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Message">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="1" name="by" type="Editor"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="text" type="xs:string"/>
+      <xs:element minOccurs="0" maxOccurs="1" name="time" type="Time"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Time">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="timestamp" type="xs:string" use="optional"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>  
+  <xs:complexType name="SimpleList">
+    <xs:sequence>      
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="item" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>      
+</xs:schema>

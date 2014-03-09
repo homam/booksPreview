@@ -1,0 +1,34 @@
+<div class="QAFlashCard end">
+    <div class="title"><p>End of chapter</p></div>
+    <a href="?chapterIndex=<%=chapterIndex%>">repeat</a>
+    <a href="">next</a>
+</div>
+
+<% for(i in questions) {%>
+
+<div class="QAFlashCard">
+    <p><%= questions[i].question %></p>
+    <div class="answer">
+        <div class="short">
+        <% for(j in questions[i].answer.short) {%>
+            <%= questions[i].answer.short[j] %>
+        <% } %>
+        </div>
+        <div class="long">
+            <% for(j in questions[i].answer.long) {%>
+                <p><%= questions[i].answer.long[j] %></p>
+            <% } %>
+        </div>
+        <div class="bonus" data-type="<%=questions[i].answer.bonus.type%>">
+            <ul>
+                <li>
+                    <% for(j in questions[i].answer.bonus.text) {%>
+                        <p><%= questions[i].answer.bonus.text[j] %></p>
+                    <% } %>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<% } %>

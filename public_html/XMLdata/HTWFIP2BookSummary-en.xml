@@ -1,0 +1,2380 @@
+<BookSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="TextBook.xsd" schemaLocation=".\ ..\..\TextBook.xsd">
+  <meta id="101" key="HTWFIP2BookSummary" viewType="BookSummary"></meta>
+  <Title>How To Win Friends &amp; Influence People Two (Book Summary)</Title>
+  <comments>
+    <comment id="13722628575754278" editorId="15" editorName="Jill Saydam">
+      <to id="11">Godwin Birwe</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>need pic of muhammed ali - make sure you have rights to the image.</text>
+          <time timestamp="13722628575754278">Wed 26 Jun 2013, 16:07 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13722639994974336" editorId="15" editorName="Jill Saydam">
+      <to id="11">Godwin Birwe</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>need pic of George Washington</text>
+          <time timestamp="13722639994974336">Wed 26 Jun 2013, 16:26 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13744209401423646">
+      <to id="1">furqan zafar</to>
+      <messages>
+        <message>
+          <by id="1">furqan zafar</by>
+          <text>comment</text>
+          <time timestamp="13744209401423646">Sun 21 Jul 2013, 15:35 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13755953863365012">
+      <to id="1">furqan zafar</to>
+      <resolved>
+        <by id="1">furqan zafar</by>
+        <time timestamp="13756057379374828">Sun 4 Aug 2013, 08:42 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="1">furqan zafar</by>
+          <text>comment</text>
+          <time timestamp="13755953863365012">Sun 4 Aug 2013, 05:49 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13756206733257156">
+      <to id="1">furqan zafar</to>
+      <resolved>
+        <by id="1">furqan zafar</by>
+        <time timestamp="13756207027317672">Sun 4 Aug 2013, 12:51 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="1">furqan zafar</by>
+          <text>comment</text>
+          <time timestamp="13756206733257156">Sun 4 Aug 2013, 12:51 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13756206839337342">
+      <to id="1">furqan zafar</to>
+      <resolved>
+        <by id="1">furqan zafar</by>
+        <time timestamp="13756206989721606">Sun 4 Aug 2013, 12:51 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="1">furqan zafar</by>
+          <text>comment</text>
+          <time timestamp="13756206839337342">Sun 4 Aug 2013, 12:51 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13756769079761402">
+      <to id="1">furqan zafar</to>
+      <resolved>
+        <by id="1">furqan zafar</by>
+        <time timestamp="13756797782563816">Mon 5 Aug 2013, 05:16 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="1">furqan zafar</by>
+          <text>comment</text>
+          <time timestamp="13756769079761402">Mon 5 Aug 2013, 04:28 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13859824452977738">
+      <to id="1">furqan zafar</to>
+      <messages>
+        <message>
+          <by id="1">furqan zafar</by>
+          <text>comment</text>
+          <time timestamp="13859824452977738">Mon 2 Dec 2013, 11:07 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916201415871132">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916771485956408">Thu 6 Feb 2014, 08:59 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>need to change this one</text>
+          <time timestamp="13916201415871132">Wed 5 Feb 2014, 17:09 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916201654707552">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916774812818252">Thu 6 Feb 2014, 09:04 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>need to change this one</text>
+          <time timestamp="13916201654707552">Wed 5 Feb 2014, 17:09 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916209988554188">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916778724213120">Thu 6 Feb 2014, 09:11 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>rework this. not quite there.</text>
+          <time timestamp="13916209988554188">Wed 5 Feb 2014, 17:23 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916220908573368">
+      <to id="39">Cursty Mitchell</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>write simpler</text>
+          <time timestamp="13916220908573368">Wed 5 Feb 2014, 17:41 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916222647040424">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13916909207834304">Thu 6 Feb 2014, 12:48 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>need to fill in</text>
+          <time timestamp="13916222647040424">Wed 5 Feb 2014, 17:44 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916223254349490">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13916909400182640">Thu 6 Feb 2014, 12:49 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>work on this.</text>
+          <time timestamp="13916223254349490">Wed 5 Feb 2014, 17:45 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916227382428740">
+      <to id="39">Cursty Mitchell</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>need to elaborate a bit more</text>
+          <time timestamp="13916227382428740">Wed 5 Feb 2014, 17:52 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916245994197430">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13916914092514884">Thu 6 Feb 2014, 12:56 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>need to refine this</text>
+          <time timestamp="13916245994197430">Wed 5 Feb 2014, 18:23 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916255040965320">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13916256668984180">Wed 5 Feb 2014, 18:41 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>I think this is in the wrong spot. Homam moved it by mistake.</text>
+          <time timestamp="13916255040965320">Wed 5 Feb 2014, 18:38 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916764230227664">
+      <to id="15">Jill Saydam</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13916885896245360">Thu 6 Feb 2014, 12:09 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="39">Cursty Mitchell</by>
+          <text>think this isnt a Carnegie one</text>
+          <time timestamp="13916764230227664">Thu 6 Feb 2014, 08:47 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916779651322748">
+      <to id="15">Jill Saydam</to>
+      <messages>
+        <message>
+          <by id="39">Cursty Mitchell</by>
+          <text>i dont understand this one</text>
+          <time timestamp="13916779651322748">Thu 6 Feb 2014, 09:12 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916801393704938">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916822398673832">Thu 6 Feb 2014, 10:23 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="39">Cursty Mitchell</by>
+          <text>question</text>
+          <time timestamp="13916801393704938">Thu 6 Feb 2014, 09:48 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916858752041682">
+      <to id="15">Jill Saydam</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916996924136368">Thu 6 Feb 2014, 15:14 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="39">Cursty Mitchell</by>
+          <text>this is a mix of Carnegie's and internet</text>
+          <time timestamp="13916858752041682">Thu 6 Feb 2014, 11:24 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916919441608278">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916942284104400">Thu 6 Feb 2014, 13:43 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>need a little more explanation here as to why this works</text>
+          <time timestamp="13916919441608278">Thu 6 Feb 2014, 13:05 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916920086513412">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916946530899858">Thu 6 Feb 2014, 13:50 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>change sweeten the pill</text>
+          <time timestamp="13916920086513412">Thu 6 Feb 2014, 13:06 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916921462279828">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916998423455002">Thu 6 Feb 2014, 15:17 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>be less vague. more direct.</text>
+          <time timestamp="13916921462279828">Thu 6 Feb 2014, 13:09 PM</time>
+        </message>
+        <message>
+          <by id="39">Cursty Mitchell</by>
+          <text>is this too long? Also adapted the question and answer to make it better</text>
+          <time timestamp="13916954374125634">Thu 6 Feb 2014, 14:03 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916921782548388">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916958844001484">Thu 6 Feb 2014, 14:11 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>simpler</text>
+          <time timestamp="13916921782548388">Thu 6 Feb 2014, 13:09 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916922316693328">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916959134317994">Thu 6 Feb 2014, 14:11 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>change</text>
+          <time timestamp="13916922316693328">Thu 6 Feb 2014, 13:10 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916923776699892">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916964731919826">Thu 6 Feb 2014, 14:21 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>too complicated. doesn't make sense</text>
+          <time timestamp="13916923776699892">Thu 6 Feb 2014, 13:12 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916925549331006">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916964661407702">Thu 6 Feb 2014, 14:21 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>fix</text>
+          <time timestamp="13916925549331006">Thu 6 Feb 2014, 13:15 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916925864919560">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916971056326934">Thu 6 Feb 2014, 14:31 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>fix...this isn't a question that you would answer in your head with an actual answer</text>
+          <time timestamp="13916925864919560">Thu 6 Feb 2014, 13:16 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916926100011972">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916975572534868">Thu 6 Feb 2014, 14:39 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>needs to be an actual answer that is contained within the box.</text>
+          <time timestamp="13916926100011972">Thu 6 Feb 2014, 13:16 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13916975952863536">
+      <to id="15">Jill Saydam</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13916998565727252">Thu 6 Feb 2014, 15:17 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="39">Cursty Mitchell</by>
+          <text>changed the Q and A plus the text, i think its better right?</text>
+          <time timestamp="13916975952863536">Thu 6 Feb 2014, 14:39 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921163637994812">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13921179635198910">Tue 11 Feb 2014, 11:26 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>What will a good sales person do 1st before the try to sell you something?</text>
+          <time timestamp="13921163637994812">Tue 11 Feb 2014, 10:59 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921163827379144">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13921179974499506">Tue 11 Feb 2014, 11:26 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>Listen.</text>
+          <time timestamp="13921163827379144">Tue 11 Feb 2014, 10:59 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921165071325330">
+      <to id="39">Cursty Mitchell</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>see how I broke that down to the next flashcard</text>
+          <time timestamp="13921165071325330">Tue 11 Feb 2014, 11:01 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921165626998306">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13921187028675896">Tue 11 Feb 2014, 11:38 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>What do people like to talk about the most?</text>
+          <time timestamp="13921165626998306">Tue 11 Feb 2014, 11:02 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921165845398690">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13921187103088028">Tue 11 Feb 2014, 11:38 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>Themselves.</text>
+          <time timestamp="13921165845398690">Tue 11 Feb 2014, 11:03 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921166398263660">
+      <to id="39">Cursty Mitchell</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>remove</text>
+          <time timestamp="13921166398263660">Tue 11 Feb 2014, 11:03 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921167385745396">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13921187948297512">Tue 11 Feb 2014, 11:39 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>maybe "what is one thing you can do to make someone NOT trust you?</text>
+          <time timestamp="13921167385745396">Tue 11 Feb 2014, 11:05 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921167737682012">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13921173105183440">Tue 11 Feb 2014, 11:15 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>change to just compliment</text>
+          <time timestamp="13921167737682012">Tue 11 Feb 2014, 11:06 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921167933462356">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13921173952420928">Tue 11 Feb 2014, 11:16 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>make genuine and honest a point in here</text>
+          <time timestamp="13921167933462356">Tue 11 Feb 2014, 11:06 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921168219254860">
+      <to id="39">Cursty Mitchell</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>maybe take out?</text>
+          <time timestamp="13921168219254860">Tue 11 Feb 2014, 11:07 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921168408015192">
+      <to id="39">Cursty Mitchell</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>maybe take out?</text>
+          <time timestamp="13921168408015192">Tue 11 Feb 2014, 11:07 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921169257748684">
+      <to id="15">Jill Saydam</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13921178015292064">Tue 11 Feb 2014, 11:23 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>Maybe "what is the best way to get someone to do something without force?" (not sure...)</text>
+          <time timestamp="13921169257748684">Tue 11 Feb 2014, 11:08 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921215326969600">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13921215641154152">Tue 11 Feb 2014, 12:26 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add something related to the salesperson</text>
+          <time timestamp="13921215326969600">Tue 11 Feb 2014, 12:25 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13921217550597504">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13921224087320986">Tue 11 Feb 2014, 12:40 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>What is it called when you say something nice to someone?</text>
+          <time timestamp="13921217550597504">Tue 11 Feb 2014, 12:29 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13927396299649628">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13927997223157092">Wed 19 Feb 2014, 08:48 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>change question and answer</text>
+          <time timestamp="13927396299649628">Tue 18 Feb 2014, 16:07 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13927422535619708">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928050680550986">Wed 19 Feb 2014, 10:17 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>can we simplify? too open ended?</text>
+          <time timestamp="13927422535619708">Tue 18 Feb 2014, 16:50 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13927427251351992">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928062647800004">Wed 19 Feb 2014, 10:37 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>find a simpler word for this and then teach them empathetic in the bottom part</text>
+          <time timestamp="13927427251351992">Tue 18 Feb 2014, 16:58 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13927432202644688">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928067463996464">Wed 19 Feb 2014, 10:45 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>I wonder if input is a confusing word?</text>
+          <time timestamp="13927432202644688">Tue 18 Feb 2014, 17:07 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13927433164074376">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928068892334972">Wed 19 Feb 2014, 10:48 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>wonder if this is feeling too short?</text>
+          <time timestamp="13927433164074376">Tue 18 Feb 2014, 17:08 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13927433479350928">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928070358893548">Wed 19 Feb 2014, 10:50 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>maybe take this out...doesn't seem to fit the card</text>
+          <time timestamp="13927433479350928">Tue 18 Feb 2014, 17:09 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13927436452404152">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928078145803226">Wed 19 Feb 2014, 11:03 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>text not quite right here. doesn't quite match</text>
+          <time timestamp="13927436452404152">Tue 18 Feb 2014, 17:14 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13927437790574502">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928086193701362">Wed 19 Feb 2014, 11:16 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>re-visualise is an idiom. Change to a simpler way of saying this.</text>
+          <time timestamp="13927437790574502">Tue 18 Feb 2014, 17:16 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928100883935164">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928260651459780">Wed 19 Feb 2014, 16:07 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>can we add a mini story here?</text>
+          <time timestamp="13928100883935164">Wed 19 Feb 2014, 11:41 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928104131860868">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928107112714104">Wed 19 Feb 2014, 11:51 AM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>Can we try to make this not fill in the blank?</text>
+          <time timestamp="13928104131860868">Wed 19 Feb 2014, 11:46 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928109456618220">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928194246979148">Wed 19 Feb 2014, 14:17 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>change back to original</text>
+          <time timestamp="13928109456618220">Wed 19 Feb 2014, 11:55 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928109749742736">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928194339643310">Wed 19 Feb 2014, 14:17 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>please go back to Themselves - the original</text>
+          <time timestamp="13928109749742736">Wed 19 Feb 2014, 11:56 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928110890416740">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928262588047182">Wed 19 Feb 2014, 16:10 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add definition</text>
+          <time timestamp="13928110890416740">Wed 19 Feb 2014, 11:58 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928117691872684">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928269583879468">Wed 19 Feb 2014, 16:22 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add bonus material</text>
+          <time timestamp="13928117691872684">Wed 19 Feb 2014, 12:09 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928124041239836">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928279549176972">Wed 19 Feb 2014, 16:39 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add definition</text>
+          <time timestamp="13928124041239836">Wed 19 Feb 2014, 12:20 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928130040230374">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928341499381782">Wed 19 Feb 2014, 18:22 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>hm...wonder if this is a bit too broad</text>
+          <time timestamp="13928130040230374">Wed 19 Feb 2014, 12:30 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928130394038996">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928286740945604">Wed 19 Feb 2014, 16:51 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>is there a better question to go with this answer?</text>
+          <time timestamp="13928130394038996">Wed 19 Feb 2014, 12:30 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928131927989690">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928290867308852">Wed 19 Feb 2014, 16:58 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add a little something</text>
+          <time timestamp="13928131927989690">Wed 19 Feb 2014, 12:33 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928139341902712">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928286858725812">Wed 19 Feb 2014, 16:51 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>Add something here.</text>
+          <time timestamp="13928139341902712">Wed 19 Feb 2014, 12:45 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928175465326160">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928342015430688">Wed 19 Feb 2014, 18:23 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>I think the original question was stronger on this one where the answer was just rewards.</text>
+          <time timestamp="13928175465326160">Wed 19 Feb 2014, 13:45 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928175696830566">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928290351415946">Wed 19 Feb 2014, 16:57 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>go back to the original</text>
+          <time timestamp="13928175696830566">Wed 19 Feb 2014, 13:46 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928185418611640">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928250985214804">Wed 19 Feb 2014, 15:51 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>can you add content here?</text>
+          <time timestamp="13928185418611640">Wed 19 Feb 2014, 14:02 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928185596295952">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928186239485084">Wed 19 Feb 2014, 14:03 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add questions and answers</text>
+          <time timestamp="13928185596295952">Wed 19 Feb 2014, 14:02 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928188623481270">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928255063217964">Wed 19 Feb 2014, 15:58 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add a little bonus something</text>
+          <time timestamp="13928188623481270">Wed 19 Feb 2014, 14:07 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928191963291136">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928251573023836">Wed 19 Feb 2014, 15:52 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add bonus</text>
+          <time timestamp="13928191963291136">Wed 19 Feb 2014, 14:13 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928202116724970">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928263198164252">Wed 19 Feb 2014, 16:11 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add a bonus</text>
+          <time timestamp="13928202116724970">Wed 19 Feb 2014, 14:30 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928210687224024">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928265063459530">Wed 19 Feb 2014, 16:15 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add a bonus</text>
+          <time timestamp="13928210687224024">Wed 19 Feb 2014, 14:44 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928218445273648">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928268699669916">Wed 19 Feb 2014, 16:21 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>can you fill in the right answer?</text>
+          <time timestamp="13928218445273648">Wed 19 Feb 2014, 14:57 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928222021111930">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928338484052486">Wed 19 Feb 2014, 18:17 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add a bonus</text>
+          <time timestamp="13928222021111930">Wed 19 Feb 2014, 15:03 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928222711881144">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928338677648826">Wed 19 Feb 2014, 18:17 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>should this be "what 4 tricks can you use...? because of the answer?</text>
+          <time timestamp="13928222711881144">Wed 19 Feb 2014, 15:04 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928222951653564">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928276010778758">Wed 19 Feb 2014, 16:33 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add bonus</text>
+          <time timestamp="13928222951653564">Wed 19 Feb 2014, 15:04 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928224280775900">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928339208205758">Wed 19 Feb 2014, 18:18 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>Add a couple more sentences</text>
+          <time timestamp="13928224280775900">Wed 19 Feb 2014, 15:07 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928225025521208">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928280090653924">Wed 19 Feb 2014, 16:40 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add a little more</text>
+          <time timestamp="13928225025521208">Wed 19 Feb 2014, 15:08 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928225413493888">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928281271107996">Wed 19 Feb 2014, 16:42 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>I think this is too abstract. Can you come up with something else?</text>
+          <time timestamp="13928225413493888">Wed 19 Feb 2014, 15:09 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928225595078208">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928282003061284">Wed 19 Feb 2014, 16:43 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>this will need to be longer</text>
+          <time timestamp="13928225595078208">Wed 19 Feb 2014, 15:09 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928227440249448">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928283545591992">Wed 19 Feb 2014, 16:45 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add a bonus</text>
+          <time timestamp="13928227440249448">Wed 19 Feb 2014, 15:12 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928228321182996">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928284646641926">Wed 19 Feb 2014, 16:47 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add bonus</text>
+          <time timestamp="13928228321182996">Wed 19 Feb 2014, 15:13 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928229548281152">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928288219672200">Wed 19 Feb 2014, 16:53 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add a bonus</text>
+          <time timestamp="13928229548281152">Wed 19 Feb 2014, 15:15 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928230068854064">
+      <to id="39">Cursty Mitchell</to>
+      <resolved>
+        <by id="39">Cursty Mitchell</by>
+        <time timestamp="13928288879241360">Wed 19 Feb 2014, 16:54 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>bonus</text>
+          <time timestamp="13928230068854064">Wed 19 Feb 2014, 15:16 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928329132928062">
+      <to id="39">Cursty Mitchell</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>add questions</text>
+          <time timestamp="13928329132928062">Wed 19 Feb 2014, 18:01 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928855054467794">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928990947710478">Thu 20 Feb 2014, 12:24 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>change this so more obvious</text>
+          <time timestamp="13928855054467794">Thu 20 Feb 2014, 08:38 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>i think the words flattering and remarks are too big of words. Maybe more. When someone says something nice to you it's called a ________.</text>
+          <time timestamp="13928921326348196">Thu 20 Feb 2014, 10:28 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>OK, no worries. I'm still getting used to the level of understanding the readers will have. I appreciate your guidance.</text>
+          <time timestamp="13928933143212950">Thu 20 Feb 2014, 10:48 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>OK, no worries. I'm still getting used to the level of understanding the readers will have. I appreciate your guidance.</text>
+          <time timestamp="13928933143212950">Thu 20 Feb 2014, 10:48 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>OK, no worries. I'm still getting used to the level of understanding the readers will have. I appreciate your guidance.</text>
+          <time timestamp="13928933143212950">Thu 20 Feb 2014, 10:48 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928855263820162">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928991150978836">Thu 20 Feb 2014, 12:25 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>change this so more obvious</text>
+          <time timestamp="13928855263820162">Thu 20 Feb 2014, 08:38 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>how about " When you disapprove of someone or something you may want to ______them." Ug...not sure. this is tricky because I think the word disapprove is too big.</text>
+          <time timestamp="13928924821534334">Thu 20 Feb 2014, 10:34 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928855552888670">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13928991704623808">Thu 20 Feb 2014, 12:26 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>better way to word this so more obvious?</text>
+          <time timestamp="13928855552888670">Thu 20 Feb 2014, 08:39 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>hm. a few words pop into my head like mean... Maybe we should simplify with just the word "Trust". ?</text>
+          <time timestamp="13928925313559198">Thu 20 Feb 2014, 10:35 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928855920581316">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13929055447115764">Thu 20 Feb 2014, 14:12 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious to get the answer?</text>
+          <time timestamp="13928855920581316">Thu 20 Feb 2014, 08:39 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>good. I think this is actually how we wrote it about 10 versions ago!</text>
+          <time timestamp="13928925563315636">Thu 20 Feb 2014, 10:35 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>maybe change to "Who do people love talking about the most?"</text>
+          <time timestamp="13928925795288044">Thu 20 Feb 2014, 10:36 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928856213705830">
+      <to id="72">Ruth Khan</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious</text>
+          <time timestamp="13928856213705830">Thu 20 Feb 2014, 08:40 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>still too vague.</text>
+          <time timestamp="13928926101828582">Thu 20 Feb 2014, 10:36 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>"If you give people your full attention they will give you their full ______ back." that's pretty obvious. What do you think?</text>
+          <time timestamp="13928926537849348">Thu 20 Feb 2014, 10:37 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>That doesn't tie into the answers, which I suppose can be changed?</text>
+          <time timestamp="13928948631076152">Thu 20 Feb 2014, 11:14 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928856807598872">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13929166049282028">Thu 20 Feb 2014, 17:16 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious</text>
+          <time timestamp="13928856807598872">Thu 20 Feb 2014, 08:41 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>not sure. I think still too open ended.</text>
+          <time timestamp="13928927101634338">Thu 20 Feb 2014, 10:38 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928857238627630">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13929167039727768">Thu 20 Feb 2014, 17:18 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious?</text>
+          <time timestamp="13928857238627630">Thu 20 Feb 2014, 08:42 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>maybe change to first thing?</text>
+          <time timestamp="13928927286026662">Thu 20 Feb 2014, 10:38 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928857438463980">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13929167424112442">Thu 20 Feb 2014, 17:19 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious</text>
+          <time timestamp="13928857438463980">Thu 20 Feb 2014, 08:42 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>take out best way. need more of a hint around the warm greeting.</text>
+          <time timestamp="13928927498499036">Thu 20 Feb 2014, 10:39 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928857680420406">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13929168568686452">Thu 20 Feb 2014, 17:20 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious</text>
+          <time timestamp="13928857680420406">Thu 20 Feb 2014, 08:42 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>too open. "If you let people speak first they are more likely to ____(listent) to you when they are done talking.   (?/)</text>
+          <time timestamp="13928928464920732">Thu 20 Feb 2014, 10:40 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928857993980956">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13929168902059038">Thu 20 Feb 2014, 17:21 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious</text>
+          <time timestamp="13928857993980956">Thu 20 Feb 2014, 08:43 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>Would the readers understand the word 'subconsciously'?</text>
+          <time timestamp="13928902179654564">Thu 20 Feb 2014, 09:56 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>Or 'subliminally'?</text>
+          <time timestamp="13928902399458952">Thu 20 Feb 2014, 09:57 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>no</text>
+          <time timestamp="13928916649771980">Thu 20 Feb 2014, 10:21 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928858163085254">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13934249962462700">Wed 26 Feb 2014, 14:29 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious</text>
+          <time timestamp="13928858163085254">Thu 20 Feb 2014, 08:43 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928858342485568">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13934250066358882">Wed 26 Feb 2014, 14:30 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious</text>
+          <time timestamp="13928858342485568">Thu 20 Feb 2014, 08:43 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>too vague. try something.</text>
+          <time timestamp="13928929475490508">Thu 20 Feb 2014, 10:42 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928858621414060">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13934250518447676">Wed 26 Feb 2014, 14:30 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>too vague - make more obvious</text>
+          <time timestamp="13928858621414060">Thu 20 Feb 2014, 08:44 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>too open</text>
+          <time timestamp="13928929858315180">Thu 20 Feb 2014, 10:43 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928859580971744">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13929169907948804">Thu 20 Feb 2014, 17:23 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more direct and obvious?</text>
+          <time timestamp="13928859580971744">Thu 20 Feb 2014, 08:45 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928860038832548">
+      <to id="72">Ruth Khan</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>more obvious</text>
+          <time timestamp="13928860038832548">Thu 20 Feb 2014, 08:46 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>try something else?</text>
+          <time timestamp="13928930481068274">Thu 20 Feb 2014, 10:44 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>I'm still not entirely happy with this. Maybe jig the answers a little?</text>
+          <time timestamp="13929146953288488">Thu 20 Feb 2014, 16:44 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928861088090392">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13929170545833924">Thu 20 Feb 2014, 17:24 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>maybe this could be cut down into 4 simple questions and answers that are separate</text>
+          <time timestamp="13928861088090392">Thu 20 Feb 2014, 08:48 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>I agree - 4 individual cards would be better. How do I do this or can it be done from your end?</text>
+          <time timestamp="13928889297619940">Thu 20 Feb 2014, 09:35 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>Also, follow orders may be a little strong. Instructions? Directions? Wishes?</text>
+          <time timestamp="13928908107976978">Thu 20 Feb 2014, 10:06 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>Also, follow orders may be a little strong. Instructions? Directions? Wishes?</text>
+          <time timestamp="13928908107976978">Thu 20 Feb 2014, 10:06 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>I can do this on my end. The follow orders is odd but it's because the book was written in 1936. but we can have a bit of liberty with it.  I'll change this one - don't worry about it.</text>
+          <time timestamp="13928917926634224">Thu 20 Feb 2014, 10:23 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13928861908807832">
+      <to id="72">Ruth Khan</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13929170908534562">Thu 20 Feb 2014, 17:24 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>maybe a better way to say this.</text>
+          <time timestamp="13928861908807832">Thu 20 Feb 2014, 08:49 AM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>just a little wordy. Can it be said simpler?</text>
+          <time timestamp="13928930809760852">Thu 20 Feb 2014, 10:44 AM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13932368245973640">
+      <to id="72">Ruth Khan</to>
+      <messages>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>I'm not sure on this. We may need to have a short answer like (employers, teachers, etc... but not sure how to just say people...thoughts?)</text>
+          <time timestamp="13932368245973640">Mon 24 Feb 2014, 10:13 AM</time>
+        </message>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>Swap the sentences around so the categories of people are defined first? Bullet point them, then .. "In short anyone who wants to make ..." There are two 'anyone's in any case.</text>
+          <time timestamp="13932595453196708">Mon 24 Feb 2014, 16:32 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13932604736305012">
+      <to id="15">Jill Saydam</to>
+      <messages>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>Where is this a quote from?</text>
+          <time timestamp="13932604736305012">Mon 24 Feb 2014, 16:47 PM</time>
+        </message>
+        <message>
+          <by id="15">Jill Saydam</by>
+          <text>It is from the book but the words were changed</text>
+          <time timestamp="13934245703343218">Wed 26 Feb 2014, 14:22 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13932606371031884">
+      <to id="15">Jill Saydam</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13934246015499768">Wed 26 Feb 2014, 14:23 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>Formatting looks a little off here - large gap between two lines of first two answers.</text>
+          <time timestamp="13932606371031884">Mon 24 Feb 2014, 16:50 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13932628390158558">
+      <to id="15">Jill Saydam</to>
+      <resolved>
+        <by id="15">Jill Saydam</by>
+        <time timestamp="13934251682989720">Wed 26 Feb 2014, 14:32 PM</time>
+      </resolved>
+      <messages>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>I've found this name as Lao-Tse as well as Lao-tse (also different spellings!) Are you happy with the lower case on the second part of the name?</text>
+          <time timestamp="13932628390158558">Mon 24 Feb 2014, 17:27 PM</time>
+        </message>
+      </messages>
+    </comment>
+    <comment id="13932636138848168">
+      <to id="15">Jill Saydam</to>
+      <messages>
+        <message>
+          <by id="72">Ruth Khan</by>
+          <text>state resident?</text>
+          <time timestamp="13932636138848168">Mon 24 Feb 2014, 17:40 PM</time>
+        </message>
+      </messages>
+    </comment>
+  </comments>
+  <introduction>
+    <title>About this course</title>
+    <QAFlashCard>
+      <FCQuestion>What is this book about?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>How to use certain techniques to get what you want from other people.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>How to Win Friends &amp; Influence People is one of the very first self-help books. A classic whose principles still hold true today. It outlines how to get what you want from other people by making simple changes to your own behaviour.    First published: 1936</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>Who should do this course?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Anyone who wants to leave a good first impression, make friends quickly and get people to happily work for them. Anyone working with people, managers, employers, teachers and more.</text>
+        </short>
+        <long>
+          <title>A</title>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>Who is the author?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Dale Carnegie</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Dale Carnegie was an American writer and lecturer who began life as a poor farm boy. His insights into people's desire to improve their self confidence, interpersonal skills and leadership abilities inspired him to write several hugely popular books.</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+  </introduction>
+  <chapter>
+    <title>The Basics</title>
+    <QAFlashCard>
+      <FCQuestion>When someone says something nice about you, it's called a ___________ ?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Compliment!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Giving someone a compliment makes them feel good. This then makes them more open to your ideas.</text>
+          <text>A compliment can make people happy long after it is given. Many people remember a compliment for years after it was told to them.</text>
+          <text>People will remember YOUR compliment when they feel ‘down’ and they will think of you positively too!</text>
+        </long>
+        <bonus type="toDo">
+          <text>A compliment MUST be genuine and honest or people will not believe you. If they don't believe you, they won't trust you!</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>When you ________ someone, you point out their faults in an unkind way.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Criticise</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>No one likes criticism. It makes people angry and resentful.</text>
+          <text>Most criticism only results in the person being criticised returning the comment or worse, causing further bitterness.</text>
+          <text>Resentment from criticism generally leads to demoralisation and rarely corrects the issue anyway.</text>
+        </long>
+        <bonus type="didYouKnow">
+          <text>One of the greatest English writers, Thomas Hardy, author of 'Tess of the D'urbervilles' and 'Far From the Madding Crowd', actually refused to write again after very mean criticism.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>If you criticise other people all the time they will not trust you. They will think you are _______.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Untrustworthy</text>
+        </short>
+        <long>
+          <title>A.</title>
+          <text>People dislike and distrust others who criticise.</text>
+          <text>If you want more friends, then you MUST avoid upsetting people.</text>
+          <text>One way to do this, is to stop being critical.   Try to see the situation from their point of view.</text>
+          <text>Accept that we are all different. Each person has their own views, and you can not change them.</text>
+        </long>
+        <bonus type="tip">
+          <text>It's easy to criticise people. However, it takes good character and self-control to really understand others.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>People will do things for you if they ________to.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>'want'.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>A great way to get people to do things happily for you is by making them 'want' to do it.</text>
+          <text>To make them want to help you, you first need to find out what they want. When you know what this is, you can appeal to them. Make your task fit their wants.  This will make you more successful when dealing with people.</text>
+        </long>
+        <bonus type="caseStudy">
+          <text>Lloyd George once said, when asked how he managed to remain long-term Prime Minister of Britain, that he had, "Learned that it was necessary to bait the hook to suit the fish."</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>A great sales person will _________  the customer before they try to sell them anything.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>listen to</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>One simple technique to successful selling is  to know what the customer wants and needs.</text>
+          <text>The best way to do this is to listen to the customer. A great salesperson knows how to ask good questions and then listens carefully to what they are saying.</text>
+          <text>Just like sales people, if you want to know someone's needs, you must listen too!</text>
+        </long>
+        <bonus type="didYouKnow">
+          <text>According to Dr Nicholas Murray Butler, past president of Colombia University, talking non-stop about yourself shows a lack of education, no matter how much education you might actually have!</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>If you want to sell someone something you need to know these 2 things about them.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Their wants and needs.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>To get others to do things for you, you will need to know their wants and needs.</text>
+          <text>Once you learn these, you will discover what motivates, interests and drives them.</text>
+          <text>You can then use this information to make people happily do things for you.</text>
+        </long>
+        <bonus type="didYouKnow">
+          <text>Man has 8 needs. These are: health, food, sleep, money, spirituality, romance, healthy children and a feeling of importance.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>Who do people love talking about the most?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Themselves!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>People LOVE talking about themselves.</text>
+          <text>Some people like it so much they can spend an entire evening just talking about themselves.</text>
+          <text>Sometimes, they don't even realise the other person has said nothing at all!</text>
+        </long>
+        <bonus type="caseStudy">
+          <text>The famous neurologist Sigmund Freud was well known for the way he listened. Someone who met him once said, "The attention he gave me, his appreciation of what I said, even when I said it badly, was extraordinary. You've no idea what it meant to be listened to like that."</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>Name 3 techniques which make you a great listener.</FCQuestion>
+      <FCAnswer>
+        <short type="list">
+          <text>Ask questions people will enjoy answering</text>
+          <text>Look people in the eye while they are talking</text>
+          <text>Don't criticise what they are saying</text>
+        </short>
+        <long>
+          <title>A</title>
+          <SimpleList>
+            <item>Encourage them to talk about the things they like. They will not only enjoy this but they will remember you as fun to talk to.</item>
+            <item>Use positive body language. Look them in the eye, don't cross arms or legs and don't touch your face.</item>
+            <item>No one likes to be criticised. If you want them to enjoy talking to you and remember you positively, avoid criticising.</item>
+          </SimpleList>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+  </chapter>
+  <chapter>
+    <title>Make Them Like You</title>
+    <QAFlashCard>
+      <FCQuestion>If you give people your full attention they will give you their full ______ back.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>attention.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Each of us thinks we are pretty interesting. However, talking about yourself will only make others dislike you.</text>
+          <text>Instead, give the other person your FULL attention.  Then they will want to give you their attention back.</text>
+          <text>Asking questions and encouraging them to speak will make them want to get to know you better.</text>
+        </long>
+        <bonus type="toDo">
+          <text>A dog gives unconditional love to its owner. A dog shows interest by wagging its tail, being protective and running when the owner calls its name. In return, its owner takes care of the dog's every need.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>Name 4 techniques used to show people you are interested in them.</FCQuestion>
+      <FCAnswer>
+        <short type="olist">
+          <text>Remember their name</text>
+          <text>Greet them warmly</text>
+          <text>Ask questions about their life</text>
+          <text>Remember things about them</text>
+        </short>
+        <long>
+          <title>A</title>
+          <SimpleOList>
+            <item>People love hearing their own name. If you use it in conversation with them they believe you are interested.</item>
+            <item>Use good eye contact and a warm handshake.</item>
+            <item>This shows you are interested and thoughtful.</item>
+            <item>If, the last time you met they were just going to the dentist, on holiday or starting a new project, ask them how it went.</item>
+          </SimpleOList>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What 3 things does a big, warm smile tell someone?</FCQuestion>
+      <FCAnswer>
+        <short type="list">
+          <text>I like you!</text>
+          <text>You make me happy!</text>
+          <text>I'm glad to see you!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>If you are miserable, no one wants to be with you.</text>
+          <text>Even if you don't feel very happy, smile anyway.</text>
+          <text>Smiling releases endorphins which are natural 'happy' hormones, these make you feel genuinely happy.</text>
+          <text>Remember, nothing says, "I'm happy and fun to be with!" more than a big smile!</text>
+        </long>
+        <bonus type="definition">
+          <text>Endorphins: Endorphins are hormones released by the body in response to pain, exercise, pleasure etc.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What is the most important thing you need to remember when you meet someone?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Their name!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>If you are the type of person who forgets names instantly, it's time to learn an important lesson from  Napoleon the Third...</text>
+        </long>
+        <bonus type="tip">
+          <text>Napoleon the Third, Emperor of France and nephew of the great Napoleon, knew, that by dropping a person's name into conversation, it made them feel unique.
+
+He had some simple techniques to help him do this.
+1) Ask a person to repeat their name.
+2) Ask the person to spell their name.
+3) Repeat the name several times during the conversation.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>Discussing people's________ will make them enjoy talking to you.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>interests.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>If you encourage others to talk about their passions and interests you will-</text>
+          <text>By discussing their interests you will discover what motivates them.</text>
+          <text>They will remember your conversation as fun and memorable.</text>
+          <text>When it comes to your time to speak, they will be more likely to listen to you.</text>
+        </long>
+        <bonus type="list">
+          <text>Make them happy</text>
+          <text>Make them like you</text>
+          <text>Tell you what motivates them</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What 3 things can you do to find out what interests others?</FCQuestion>
+      <FCAnswer>
+        <short type="olist">
+          <text>Research the person you are meeting</text>
+          <text>Read about their topic of interest</text>
+          <text>Encourage them to tell you more</text>
+        </short>
+        <long>
+          <title>A</title>
+          <SimpleOList>
+            <item>Try to find out more about someone's background, interests and career.</item>
+            <item>When you discover their interests, research them.</item>
+            <item>If you have no time for research, try asking questions about their interests and listening to their answers.</item>
+          </SimpleOList>
+        </long>
+        <bonus type="caseStudy">
+          <text>If President Roosevelt knew a visitor would be arriving he would study whatever their interests might be.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>People who are appreciated and valued are more likely to do what?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Happily do things for you!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Everyone likes to be told they are doing a great job. So tell them!</text>
+          <text>People are driven by emotion. If they feel appreciated, they are much more likely to like you and do things for you.</text>
+        </long>
+        <bonus type="toDo">
+          <text>If you talk to people about themselves, it will not only make them happy but they will respect you. You can use any of the techniques mentioned previously, (compliments, admiration or questions). Just remember to be genuine!</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>It is really important to be ___________ when you show your appreciation?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>sincere.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>You MUST be sincere when you talk to others. If you are not, they will not trust you!</text>
+          <SimpleList>
+            <item>Listen</item>
+            <item>Ask questions</item>
+            <item>Use positive body language</item>
+            <item>Be interested in them</item>
+          </SimpleList>
+          <text>If you use these strategies, people will not only love the attention you give, but will remember and respect you for it.</text>
+        </long>
+        <bonus type="toDo">
+          <text>You can use any method: compliments, admiration or questions. Just remember to be sincere and genuine when you do!</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>Name 3 great ways you can show your appreciation.</FCQuestion>
+      <FCAnswer>
+        <short type="olist">
+          <text>Saying kind words: "Please" "Thank-you" "I hope you don't mind..."</text>
+          <text>Apologise: Say you are sorry if you are wrong.</text>
+          <text>Treat others with respect.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <SimpleOList>
+            <item>Using kind words shows others you are aware of them and their actions.</item>
+            <item>No one likes someone who can't admit they are wrong. If you are, say so!</item>
+            <item>Treat others with respect and in return they will respect you.</item>
+          </SimpleOList>
+          <text>Remember, you will learn something new from every person you meet.</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+  </chapter>
+  <chapter>
+    <title>Win Them Around</title>
+    <QAFlashCard>
+      <FCQuestion>Arguments make people feel ________.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>bitter.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <SimpleList>
+            <item>Arguments are impossible to win</item>
+            <item>No one enjoys an argument</item>
+            <item>Arguments are loud and embarrassing</item>
+            <item>People ALWAYS say things they regret</item>
+          </SimpleList>
+          <text>If you think you might disagree with someone, stop. Before you argue, look at it from their perspective.</text>
+          <text>Think about why they might disagree with you. Try to see it from their point of view.</text>
+          <text>You are not always right.</text>
+        </long>
+        <bonus type="list" />
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>How do people feel if you tell them they are wrong?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Resentful!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>If you prove that you are right, and they are wrong, no one is happy.</text>
+          <text>They will resent you. Other people who hear the argument will be embarrassed.</text>
+          <text>It is a hollow victory and not worth the fight!</text>
+          <text>Don't tell people they are wrong. Let them have their ideas. In return, you will make and keep friends.</text>
+        </long>
+        <bonus type="caseStudy">
+          <text>When Theodore Roosevelt was president, he once famously announced that being right 75% of the time would be his ultimate aim.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What is the first thing to do if you find out you are wrong?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Admit it, and fast!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Everyone is wrong sometimes. The secret is to know when you are and admit it!</text>
+          <text>It is pointless to insist you are right. Although you might think it makes you look stupid to admit you are wrong,  you actually look more foolish insisting you are right!</text>
+          <text>Apologise and move on!</text>
+        </long>
+        <bonus type="tip">
+          <text>"By fighting you never get enough but by yielding you get more than you expected."</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What is the friendliest way to greet someone?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>With a warm and welcoming greeting.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>It is best to greet people in a warm and welcoming manner. Make them feel you have missed them and are REALLY  happy to see them.</text>
+          <text>This will make them feel special when they are in your company. It will also lessen any anger they might have.</text>
+          <text>Always greet people like this and you will quickly make new friends and keep the old ones!</text>
+        </long>
+        <bonus type="didYouKnow">
+          <text>How does a dog greet you?  He comes bounding up, tail wagging and yelping happily. He shows you just how much he has missed you and it makes you feel special!</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>If you want people to agree with you get them to say "______".</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>"Yes!"                   You need them to say "Yes" as many times as possible.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>When you start talking to people begin by discuss things which you know you both agree on. Avoid any issues you know they will answer,  "no."</text>
+          <text>Get them saying "yes" as many times as you can.</text>
+          <text>Once people have said no, it is very difficult to change their mind. So keep to subjects you know they will say "yes" to.</text>
+          <text>Once they have answered "yes" to several questions, then it is time to ask them what you really need. Now they will most likely say yes to your request as well.</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What's the best way to get someone's attention so that they really listen to you?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Let them say everything they need to, before you begin.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Before you ask someone to do something for you, let them talk. Let them say everything they need and want to say, before you begin.</text>
+          <SimpleList>
+            <item>They will listen to you because you listened to them.</item>
+            <item>If you interrupt them before they are finished, they won't listen to you.</item>
+            <item>If you let them finish speaking, they will feel it's your turn to speak and they will listen.</item>
+            <item>They will be more open to your ideas because they will feel you listened to them.</item>
+          </SimpleList>
+        </long>
+        <bonus type="list" />
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What are 3 great ways to show people you are really listening?</FCQuestion>
+      <FCAnswer>
+        <short type="olist">
+          <text>Don't interrupt</text>
+          <text>Listen well</text>
+          <text>Agree with them</text>
+        </short>
+        <long>
+          <title>A</title>
+          <SimpleOList>
+            <item>They won't listen to what you have to say until they have finished anyway.</item>
+            <item>Don't cross your arms, turn your body or look somewhere else ... it shows you aren't listening.</item>
+            <item>Agree with them and they are more likely to want to continue talking to you.</item>
+          </SimpleOList>
+        </long>
+        <bonus type="didYouKnow">
+          <text>Letting the other person talk and actively listen doesn't just work in business. It is also a highly effective technique for relationships and even when dealing with children.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What does the word "persuasion" mean?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Persuasion means  giving people a great reason to do exactly what you want them to do.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Never try to convince others of your opinion. No one likes to be told what to do. It doesn't work and makes them resistant to you.</text>
+          <text>Help people come to the same conclusion as you by making them think your idea is really theirs.</text>
+        </long>
+        <bonus type="caseStudy">
+          <text>Colonel House was advisor to President Woodrow Wilson. What did he state as the best method of convincing the President that an idea was great? He "planted a seed" and let it grow in Wilson's mind to get him thinking.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>Name 4 clever ways you can use to make people think like you, without them realising it.</FCQuestion>
+      <FCAnswer>
+        <short type="olist">
+          <text>Get them thinking by asking questions and offering solutions</text>
+          <text>Let them come to the same conclusion by answering questions</text>
+          <text>Thank them for their great idea</text>
+          <text>Implement the new ideas</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>No one likes to be forced to do something. But, if they think it's their idea, they are happy to do it. Use the techniques above to make them think it is their idea.</text>
+        </long>
+        <bonus type="didYouKnow">
+          <text>Chinese philosopher Lao-Tse once said, "The rivers and seas receive homage from many mountain streams because they keep below them."</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>How can you learn to understand how other people think?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>By putting yourself in their shoes and seeing it from their point of view!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>To understand how people behave you need to understand how they think. There is always a reason why someone behaves a certain way and you need to discover it!</text>
+          <text>Try seeing things from their point of view.</text>
+          <text>Once you understand you will discover what interests them. This will help you know what motivates them. And, once you know this, you will know how to make them do what you want.</text>
+        </long>
+        <bonus type="tip">
+          <text>How would I feel and act if I was in 'their shoes'?</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>How do you stop an argument from getting out of hand?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>By showing the person you understand how they feel!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>There is a way to instantly stop any argument.</text>
+          <text>All you have to do is show the other person you understand how they feel.</text>
+          <text>This immediately makes the other person feel cleared of blame and significantly less angry.</text>
+          <text>Showing you understand and 'feel' for the other person is called 'empathy.'</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What 3 things could you say to an angry person to calm them down?</FCQuestion>
+      <FCAnswer>
+        <short type="list">
+          <text>"I completely understand how you feel ... "</text>
+          <text>"I'm so sorry to hear this. I agree with you ... "</text>
+          <text>"In your situation I would feel exactly the same ... "</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Instantly diffuse aggression and anger in other people, by showing you understand and care.</text>
+          <text>By using empathy you can show others you understand how they feel.  Tell them you are 'on their side' and they will relax.</text>
+        </long>
+        <bonus type="definition">
+          <text>Empathy: The human ability to recognise and understand the feelings of other living things.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>We all like to think we are __________.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>good.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Everyone thinks they are a good person. No matter how badly they might be behaving.</text>
+          <text>It is possible to use this to your advantage.</text>
+          <text>First, remind them you know they are actually a  good person and that they behave well.</text>
+          <text>This will make them rethink their irrationality, reconsider their actions and be more honourable.</text>
+        </long>
+        <bonus type="toDo">
+          <text>Before making a request, tell them you know they will do the right thing.</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What polite phrases can you use to remind people that their behaviour may not be good enough?</FCQuestion>
+      <FCAnswer>
+        <short type="list">
+          <text>"I know you are a fair person ... "</text>
+          <text>"I know you are a hard worker ... "</text>
+          <text>"I know you are kind ... "</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>People fundamentally all believe that they are good. If they are behaving badly it's time to remind them you know they are not bad.</text>
+          <text>Use the phrases above to alert them to their negative behaviour. This will remind them they are a good person.</text>
+          <text>In most cases, people will respond positively and reconsider their decision.</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>If you are ________and _______people will remember what you say.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>engaging and memorable.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>If you talk a lot, people will stop listening to you and forget what you say .</text>
+          <text>However, if you get others to add their input, they will remember what you said.</text>
+          <text>It is time to engage your listeners. Dramatize your words with stories, examples and descriptions. Get your listeners involved by asking them questions and getting their input.</text>
+        </long>
+        <bonus type="didYouKnow">
+          <text>Being engaging and memorable doesn't just help you at work or in business. It's also a valuable tool for dealing with family and friends!</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>People are most motivated by ________.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>a challenge!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>According to behavioural scientists people are driven most by challenge.</text>
+          <text>They discovered employees find it more motivating than money, benefits or even working conditions.</text>
+          <text>Most people agree job satisfaction is more important than anything else.</text>
+          <text>If you want to motivate people ... throw them a challenge!</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+  </chapter>
+  <chapter>
+    <title>Being a Leader</title>
+    <QAFlashCard>
+      <FCQuestion>If you MUST criticise someone, what should you do first?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Compliment them.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Criticism is harsh. No one likes it. It makes people resistant to helping you.</text>
+          <text>If you MUST criticise, there is a way to do it without upsetting people.</text>
+          <text>Give a compliment or positive comment first, then criticise. They will not be angry. They will then accept the criticism and improve.</text>
+          <SimpleList>
+            <item>"Your organisational skills are great but I think we need to talk about..."</item>
+            <item>"Your work is  very accurate and of a really high standard, however, ... "</item>
+          </SimpleList>
+        </long>
+        <bonus type="list" />
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>How can you tell someone about their mistakes without upsetting them?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Don't blame one person in particular.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>No one likes to be the focus of criticism.</text>
+          <text>But how can you criticise one person in a group without making them feel bad?</text>
+          <text>Don't blame a specific person. Discuss the issue with the whole group. This technique makes the person aware you need improvement or change. It also keeps their ego intact too!</text>
+        </long>
+        <bonus type="didYouKnow">
+          <text>Aviator Antoine de Saint-Exupery once said, "I have no right to do or say anything which diminishes a man in his own eyes."</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>How can other people learn from the mistakes you have made?[{(c13928860038832548)}]</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>By showing that we are are all human and it's normal to make mistakes.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Soften your criticism by admitting that you too make the same mistake.</text>
+          <text>This helps people understand the problem is fixable. The technique allows you to change someone's behaviour in a positive and non-confrontational way.</text>
+        </long>
+        <bonus type="didYouKnow">
+          <text>Carnegie used this technique with great success when he appointed his niece, Josephine, as his secretary!</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What are 4 ways you can get people to do what you want them to?</FCQuestion>
+      <FCAnswer>
+        <short type="olist">
+          <text>Lead them to the same answer</text>
+          <text>Ask their opinion</text>
+          <text>Give hints</text>
+          <text>Be open and honest</text>
+        </short>
+        <long>
+          <title>A</title>
+          <SimpleOList>
+            <item>Ask 'leading' questions which bring them to the same answer as you. For example: "Is the store room tidy?" "When exactly do we expect a visit from the Area Manager?" "What do you think we need to do to prepare for her visit?"</item>
+            <item>This gives them an opportunity to correct themselves.</item>
+            <item>Give hints on what you want them to do.</item>
+            <item>Encourage everyone to feel involved in the conclusion.</item>
+          </SimpleOList>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>Before you talk about what an employee did wrong talk about this first.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>What they did right!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Discuss positive points first. This allows you to turn a conflict situation into a positive experience.</text>
+          <text>You MUST handle criticising employees with care. If you don't, they will stop cooperating with you.</text>
+          <text>First, thank them for the good work they have done.  Then discuss the negative issues.</text>
+          <text>This technique doesn't mean the criticism is ignored.  It just allows the other person to keep their ego and pride intact.</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What do animal trainers use to teach animals tricks?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Rewards!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Animals need to be rewarded for good behaviour. This is how they learn. By doing this animal trainers reinforce the good behaviour and phase out the bad. While the animal learns what is required of it.</text>
+          <text>This technique also works well with people.</text>
+          <text>Good leaders ignore the bad and praise the good.</text>
+          <text>The secret is to ALWAYS make it easy and pleasant for people (and animals) to do the right thing.</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>What is the best kind of feedback you can give an employee?</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Positive feedback!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>To improve an employee's work, you need to praise them.</text>
+          <text>First decide which aspects of their work need improvement. Discuss the particular task and remind them how well you think they are at doing it.</text>
+          <text>The employee will want to live up to your expectations and begin to work harder at the task.</text>
+          <text>They will then start to believe they are good. This builds their self belief, makes them more aware and helps them focus better.</text>
+        </long>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>To improve an employee's work you must ignore the ______and reward the________.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Ignore the BAD and reward the GOOD.</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>Sometimes people get fixated on their mistakes. This makes it difficult for them to improve other aspects of their work.</text>
+          <text>If we ignore the negative and focus on what they do well something amazing happens!</text>
+          <text>They begin to see themselves as good at the particular task. This then makes them improve the tasks they were previously poor at doing. While, the tasks they were good at, get even better!</text>
+        </long>
+        <bonus type="didYouKnow">
+          <text>This technique doesn't just work with employees. You can also use it with family, friends, children and pets!</text>
+        </bonus>
+      </FCAnswer>
+    </QAFlashCard>
+    <QAFlashCard>
+      <FCQuestion>If people get something back they'll be happy to _________ you.</FCQuestion>
+      <FCAnswer>
+        <short type="text">
+          <text>Help you!</text>
+        </short>
+        <long>
+          <title>A</title>
+          <text>People are motivated by reward and fulfilling their needs.</text>
+          <text>Just giving someone a direct command is unlikely to make them happy.</text>
+          <text>However, if you tell them what they will receive from the task they will be happy to do it.</text>
+          <SimpleList>
+            <item>Always be sincere or they won't believe you.</item>
+            <item>Think about the person's wants, then match the benefits to them.</item>
+            <item>When you discuss the task make sure they know the benefits for them.</item>
+          </SimpleList>
+        </long>
+        <bonus type="list" />
+      </FCAnswer>
+    </QAFlashCard>
+  </chapter>
+</BookSummary>
