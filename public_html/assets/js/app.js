@@ -96,11 +96,9 @@ var app = {
 
 $(function() {
     var url = purl();
-    var chapterIndex;
+    var chapterIndex = 0;
     
-    if(typeof url.param('chapterIndex') === 'undefined')
-        chapterIndex = 0;
-    else
+    if(typeof url.param('chapterIndex') !== 'undefined')
         chapterIndex = url.param('chapterIndex');
     
     app.init(chapterIndex);
