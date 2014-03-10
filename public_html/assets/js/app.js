@@ -49,6 +49,7 @@ var app = {
         _this.parent().removeClass('selected');
         _this.parent().next().addClass('selected');
         this.increaseQuestionIndex();
+        
         history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
     },
     
@@ -77,6 +78,13 @@ var app = {
     
     increaseQuestionIndex: function() {
         this.questionIndex += 1;
+    },
+    
+    updateContent: function(chapterIndex, questionIndex) {
+        this.chapterIndex = chapterIndex;
+        this.questionIndex = questionIndex;
+        
+        this.render(this.getChapter(this.chapterIndex));
     },
     
     render: function(chapterXML) {
@@ -157,4 +165,13 @@ $(function() {
         questionIndex = parseInt(url.param('questionIndex'));
     
     app.init(chapterIndex - 1, questionIndex - 1);
+
+    window.addEventListener('popstate', function(event) {
+        url = purl(document.location.href);
+
+        chapterIndex = parseInt(url.param('chapterIndex'));
+        questionIndex = parseInt(url.param('questionIndex'));
+        
+        app.updateContent(chapterIndex - 1, questionIndex - 1);
+    });
 });
