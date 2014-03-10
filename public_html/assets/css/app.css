@@ -14,14 +14,14 @@ ul {
 }
 
 #content {
-    width: 320px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     background: #5B2484;
 }
 
 .QAFlashCard {
     height: 100%;
-    width: 320px;
+    width: 100%;
     background: #5B2484;
     position: absolute;
 }
@@ -68,7 +68,6 @@ ul {
     font-style: italic;
 }
 
-
 .QAFlashCard .answer .bonus {
     width: 100%;
     background-color: #fff;
@@ -80,7 +79,7 @@ ul {
 }
 
 .bonus[data-type] li:before{
-    font-family: 'FontAwesome';    
+    font-family: 'FontAwesome';
     margin:0 5px 0 -15px;
 }
 
