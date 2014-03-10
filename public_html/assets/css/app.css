@@ -90,5 +90,17 @@ and open the template in the editor.
 
 .QAFlashCard.end .title p{
     font-size: 20px;
-    color: #fff; 
+    color: #fff;
+}
+
+.simpleList li{
+    list-style: circle;
+}
+
+.simpleOList li{
+    list-style: decimal;
+}
+
+.QAFlashCard.selected {
+    z-index: 1000;
 }

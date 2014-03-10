@@ -4,9 +4,10 @@
     <a href="">next</a>
 </div>
 
+
 <% for(i in questions) {%>
 
-<div class="QAFlashCard">
+<div class="QAFlashCard <%=questions[i].selected%>">
     <p><%= questions[i].question %></p>
     <div class="answer">
         <div class="short">
@@ -15,9 +16,13 @@
         <% } %>
         </div>
         <div class="long">
-            <% for(j in questions[i].answer.long) {%>
-                <p><%= questions[i].answer.long[j] %></p>
+            
+            <ul class="<%=questions[i].answer.long.type%>">
+            <% for(j in questions[i].answer.long.text) {%>
+                <li><%= questions[i].answer.long.text[j] %></li>
             <% } %>
+            </ul>
+            
         </div>
         <div class="bonus" data-type="<%=questions[i].answer.bonus.type%>">
             <ul>
