@@ -82,7 +82,7 @@ var app = {
     render: function(chapterXML) {
         
         var data = {};
-        data.title = chapterXML.find('title').text();
+        data.title = chapterXML.children('title').text();
       
         chapterXML.find('QAFlashCard').each(function(i){
             data.questions = data.questions || {};
@@ -133,7 +133,7 @@ var app = {
         if(nextChapter !== null) {
             data.nextChapter.exists = true;
             data.nextChapter.index = this.chapterIndex + 2;
-            data.nextChapter.title = nextChapter.find('title').text();
+            data.nextChapter.title = nextChapter.children('title').text();
         } else {
             data.nextChapter.exists = false;
         }
