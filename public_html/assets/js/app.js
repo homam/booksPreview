@@ -10,7 +10,7 @@ $(function() {
        if(typeof $(this).data('action') !== 'undefined') {
            $(this).hide();
        } else {
-           $(this).children('p').hide();
+           $(this).children('.question').hide();
            $(this).children('div.answer').show();
        }
    });
