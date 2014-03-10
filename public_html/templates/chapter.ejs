@@ -1,9 +1,29 @@
 <div class="QAFlashCard end">
     <div class="title"><p>End of chapter</p></div>
-    <a href="?chapterIndex=<%=chapterIndex%>">repeat</a>
-    <a href="">next</a>
+    <div class="content">
+        <ul>
+            <li><i class="fa fa-arrow-right"></i></li>
+            <li>Next Chapter:</li>
+            <li>How to Convice People That You Are Great</li>
+        </ul>
+    </div>
+    <div class="icons">
+        <div class="block">
+            <a href="?chapterIndex=<%=chapterIndex%>">
+                <i class="fa fa-repeat"></i><br>
+            </a>
+            Repeat this chapter
+        </div>
+        <div class="block">
+            <i class="fa fa-file-text-o"></i><br>
+            Test Yourself
+        </div>
+        <div class="block">
+            <i class="fa fa-list-alt"></i><br>
+            Chapters Overview
+        </div>
+    </div>
 </div>
-
 
 <% for(i in questions) {%>
 

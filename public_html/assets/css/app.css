@@ -74,7 +74,7 @@ and open the template in the editor.
 }
 
 .QAFlashCard.end .title{
-    height: 100px;
+    height: 20%;
     font-size: 20px;
     text-align: center;
     vertical-align: middle;
@@ -86,11 +86,28 @@ and open the template in the editor.
     align-items: center;
     padding: 10px;
     background: blueviolet;
+    border-bottom: solid 1px gray;
 }
 
 .QAFlashCard.end .title p{
     font-size: 20px;
     color: #fff;
+}
+
+.QAFlashCard.end .content{
+    height: 60%;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal; 
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
+    padding: 10px;
+    background: blueviolet;
+    border-bottom: solid 1px gray;
 }
 
 .simpleList li{
@@ -103,4 +120,22 @@ and open the template in the editor.
 
 .QAFlashCard.selected {
     z-index: 1000;
+}
+
+.clear {
+    clear: both;
+}
+
+.icons {
+    height: 20%;
+}
+
+.icons i{
+    font-size: 30px;
+    color: #fff;
+}
+
+.block {
+    width: 30%;
+    display: inline-block;
 }
