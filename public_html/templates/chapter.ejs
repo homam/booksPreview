@@ -1,11 +1,17 @@
 <div class="QAFlashCard end">
     <div class="title"><p>End of chapter</p></div>
     <div class="content">
+        <% if(nextChapter.exists) { %>
         <ul>
-            <li><i class="fa fa-arrow-right"></i></li>
+            <li>
+                <a href="?chapterIndex=<%=nextChapter.index%>">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </li>
             <li>Next Chapter:</li>
-            <li>How to Convice People That You Are Great</li>
+            <li><%=nextChapter.title%></li>
         </ul>
+        <% } %>
     </div>
     <div class="icons">
         <div class="block">

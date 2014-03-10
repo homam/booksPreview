@@ -56,6 +56,11 @@ var app = {
         return chapter;
     },
     
+    getNextChapter: function() {
+        var chapter = $(app.XMLContent).find('chapter').eq(this.chapterIndex + 1);
+        return (chapter.length) ? chapter.length : null;
+    },
+    
     drawHTML: function(chapterXML) {
         
         var data = {};
@@ -69,8 +74,6 @@ var app = {
             
             if (this.questionIndex === i)
                 data.questions[i].selected = 'selected';
-            
-            console.log(data.questions[i].selected);
             
             data.questions[i].answer = {};
             data.questions[i].answer.short = {};
@@ -99,10 +102,20 @@ var app = {
             
             $(this).find('bonus').find('text').each(function(j) {
                 data.questions[i].answer.bonus.text[j] = $(this).text();
-            });    
+            });
         });
         
         data.chapterIndex = this.chapterIndex;
+        
+        var nextChapter = this.getNextChapter();
+        data.nextChapter = {};
+        if(nextChapter !== null) {
+            data.nextChapter.exists = true;
+            data.nextChapter.index = this.chapterIndex + 1;
+            data.nextChapter.title = chapterXML.find('title').text();
+        } else {
+            data.nextChapter.exists = false;
+        }
         
         html = new EJS({url: 'templates/chapter.ejs'}).render(data);
         
