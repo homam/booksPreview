@@ -1,6 +1,39 @@
+<% for(i in questions) {%>
+
+<div class="QAFlashCard <%=questions[i].selected%>">
+    <div class="question content-allign"><p><%= questions[i].question %></p></div>
+    <div class="answer">
+        <div class="short content-allign">
+        <% for(j in questions[i].answer.short) {%>
+            <%= questions[i].answer.short[j] %>
+        <% } %>
+        </div>
+        <div class="long">
+            
+            <ul class="<%=questions[i].answer.long.type%>">
+            <% for(j in questions[i].answer.long.text) {%>
+                <li><%= questions[i].answer.long.text[j] %></li>
+            <% } %>
+            </ul>
+            
+        </div>
+        <div class="bonus" data-type="<%=questions[i].answer.bonus.type%>">
+            <ul>
+                <li>
+                    <% for(j in questions[i].answer.bonus.text) {%>
+                        <p><%= questions[i].answer.bonus.text[j] %></p>
+                    <% } %>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<% } %>
+
 <div class="QAFlashCard end">
-    <div class="title"><p>End of chapter</p></div>
-    <div class="content">
+    <div class="title content-allign"><p>End of chapter</p></div>
+    <div class="content content-allign">
         <% if(nextChapter.exists) { %>
         <ul>
             <li>
@@ -30,36 +63,3 @@
         </div>
     </div>
 </div>
-
-<% for(i in questions) {%>
-
-<div class="QAFlashCard <%=questions[i].selected%>">
-    <div class="question"><p><%= questions[i].question %></p></div>
-    <div class="answer">
-        <div class="short">
-        <% for(j in questions[i].answer.short) {%>
-            <%= questions[i].answer.short[j] %>
-        <% } %>
-        </div>
-        <div class="long">
-            
-            <ul class="<%=questions[i].answer.long.type%>">
-            <% for(j in questions[i].answer.long.text) {%>
-                <li><%= questions[i].answer.long.text[j] %></li>
-            <% } %>
-            </ul>
-            
-        </div>
-        <div class="bonus" data-type="<%=questions[i].answer.bonus.type%>">
-            <ul>
-                <li>
-                    <% for(j in questions[i].answer.bonus.text) {%>
-                        <p><%= questions[i].answer.bonus.text[j] %></p>
-                    <% } %>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<% } %>

@@ -31,17 +31,21 @@ and open the template in the editor.
     background-color: #fff;
     height: 100%;
 }
-.QAFlashCard .answer .short{
-    min-height: 100px;
-    font-size: 20px;
+
+.content-allign {
     text-align: center;
     vertical-align: middle;
     line-height: normal; 
-    width: 100%;
-    color: #fff;
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center;
+}
+
+.QAFlashCard .answer .short{
+    min-height: 100px;
+    font-size: 20px;
+    width: 100%;
+    color: #fff;
     padding: 10px;
     background: blueviolet;
 }
@@ -76,14 +80,8 @@ and open the template in the editor.
 .QAFlashCard.end .title{
     height: 20%;
     font-size: 20px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: normal; 
     width: 100%;
     color: #fff;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center;
     padding: 10px;
     background: blueviolet;
     border-bottom: solid 1px gray;
@@ -97,14 +95,8 @@ and open the template in the editor.
 .QAFlashCard.end .content{
     height: 60%;
     font-size: 20px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: normal; 
     width: 100%;
     color: #fff;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center;
     padding: 10px;
     background: blueviolet;
     border-bottom: solid 1px gray;
@@ -143,14 +135,8 @@ and open the template in the editor.
 .question{
     height: 100%;
     font-size: 20px;
-    text-align: center;
-    vertical-align: middle;
-    line-height: normal; 
     width: 100%;
     color: #fff;
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center;
     padding: 10px;
     background: blueviolet;
     border-bottom: solid 1px gray;
