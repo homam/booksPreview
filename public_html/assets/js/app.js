@@ -33,6 +33,10 @@ var app = {
         $('#content').on('click', '.QAFlashCard', function(e) {
             app.showAnswerAction($(this));
         });
+        
+        window.addEventListener('popstate', function(event) {
+            app.historyWalkAction();
+        });
     },
     
     showAnswerAction: function(_this) {
@@ -51,6 +55,15 @@ var app = {
         this.increaseQuestionIndex();
         
         history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
+    },
+    
+    historyWalkAction: function() {
+        var url = purl(document.location.href);
+
+        var chapterIndex = parseInt(url.param('chapterIndex'));
+        var questionIndex = parseInt(url.param('questionIndex'));
+
+        app.updateContent(chapterIndex - 1, questionIndex - 1);
     },
     
     /*Parses XML and returns it's content*/
@@ -165,13 +178,4 @@ $(function() {
         questionIndex = parseInt(url.param('questionIndex'));
     
     app.init(chapterIndex - 1, questionIndex - 1);
-
-    window.addEventListener('popstate', function(event) {
-        url = purl(document.location.href);
-
-        chapterIndex = parseInt(url.param('chapterIndex'));
-        questionIndex = parseInt(url.param('questionIndex'));
-        
-        app.updateContent(chapterIndex - 1, questionIndex - 1);
-    });
 });
