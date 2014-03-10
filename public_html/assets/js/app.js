@@ -72,7 +72,7 @@ var app = {
     
     getNextChapter: function() {
         var chapter = $(app.XMLContent).find('chapter').eq(this.chapterIndex + 1);
-        return (chapter.length) ? chapter.length : null;
+        return (chapter.length) ? chapter : null;
     },
     
     increaseQuestionIndex: function() {
@@ -133,7 +133,7 @@ var app = {
         if(nextChapter !== null) {
             data.nextChapter.exists = true;
             data.nextChapter.index = this.chapterIndex + 2;
-            data.nextChapter.title = chapterXML.find('title').text();
+            data.nextChapter.title = nextChapter.find('title').text();
         } else {
             data.nextChapter.exists = false;
         }
