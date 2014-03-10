@@ -1,10 +1,11 @@
 $(function() {
    var content = $("content");
    
-   $('#content').on('click', '.answer', function(e) {
-       e.stopPropagation();
-       $(this).parent().hide();
-   });
+//   $('#content').on('click', '.answer', function(e) {
+//       e.stopPropagation();
+//       $(this).parent().hide();
+//       history.pushState(null, null, '&questionIndex=5');
+//   });
     
    $('#content').on('click', '.QAFlashCard', function(e) {
        if(typeof $(this).data('action') !== 'undefined') {
@@ -33,9 +34,25 @@ var app = {
         
         this.chapterIndex  = parseInt(chapterIndex);
         this.questionIndex = parseInt(questionIndex);
-        
+
         this.parseXML();
         this.render(this.getChapter(this.chapterIndex));
+        
+        this.bindUIActions();
+    },
+    
+    bindUIActions: function() {
+        $('#content').on('click', '.answer', function(e) {
+            app.answerClickAction($(this), e);
+        });
+    },
+      
+    answerClickAction: function(_this, e) {
+        e.stopPropagation();
+        _this.parent().removeClass('selected');
+        _this.parent().next().addClass('selected');
+        this.increaseQuestionIndex();
+        history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
     },
     
     /*Parses XML and returns it's content*/
@@ -61,6 +78,10 @@ var app = {
         return (chapter.length) ? chapter.length : null;
     },
     
+    increaseQuestionIndex: function() {
+        this.questionIndex += 1;
+    },
+    
     render: function(chapterXML) {
         
         var data = {};
@@ -71,10 +92,10 @@ var app = {
             data.questions[i] = {};
             //clean out the comment from the text
             data.questions[i].question = $(this).find('FCQuestion').text().replace(/\[{(.*)}]/, '');
-            
-            if (this.questionIndex === i)
+
+            if (app.questionIndex === i)
                 data.questions[i].selected = 'selected';
-            
+
             data.questions[i].answer = {};
             data.questions[i].answer.short = {};
             
@@ -105,13 +126,13 @@ var app = {
             });
         });
         
-        data.chapterIndex = this.chapterIndex;
+        data.chapterIndex = this.chapterIndex + 1;
         
         var nextChapter = this.getNextChapter();
         data.nextChapter = {};
         if(nextChapter !== null) {
             data.nextChapter.exists = true;
-            data.nextChapter.index = this.chapterIndex + 1;
+            data.nextChapter.index = this.chapterIndex + 2;
             data.nextChapter.title = chapterXML.find('title').text();
         } else {
             data.nextChapter.exists = false;
@@ -126,14 +147,14 @@ var app = {
 
 $(function() {
     var url = purl();
-    var chapterIndex = 0;
-    var questionIndex = 0;
+    var chapterIndex = 1;
+    var questionIndex = 1;
     
     if(typeof url.param('chapterIndex') !== 'undefined')
-        chapterIndex = url.param('chapterIndex');
+        chapterIndex = parseInt(url.param('chapterIndex'));
     
     if(typeof url.param('questionIndex') !== 'undefined')
-        chapterIndex = url.param('questionIndex');
+        questionIndex = parseInt(url.param('questionIndex'));
     
-    app.init(chapterIndex, questionIndex);
+    app.init(chapterIndex - 1, questionIndex - 1);
 });
