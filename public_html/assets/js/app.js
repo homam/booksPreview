@@ -35,7 +35,7 @@ var app = {
         this.questionIndex = parseInt(questionIndex);
         
         this.parseXML();
-        this.drawHTML(this.getChapter(this.chapterIndex));
+        this.render(this.getChapter(this.chapterIndex));
     },
     
     /*Parses XML and returns it's content*/
@@ -61,7 +61,7 @@ var app = {
         return (chapter.length) ? chapter.length : null;
     },
     
-    drawHTML: function(chapterXML) {
+    render: function(chapterXML) {
         
         var data = {};
         data.title = chapterXML.find('title').text();
