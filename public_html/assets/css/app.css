@@ -16,19 +16,24 @@ ul {
 #content {
     width: 320px;
     height: 500px;
-    background: blueviolet;
+    background: #5B2484;
 }
 
 .QAFlashCard {
     height: 100%;
     width: 320px;
-    background: blueviolet;
+    background: #5B2484;
     position: absolute;
 }
 
-.QAFlashCard > p{
+.question p{
     font-size: 20px;
     color: #fff; 
+}
+
+.question i{
+    font-size: 12px;
+    color: #8C52B9;
 }
 
 .QAFlashCard .answer {
@@ -52,14 +57,17 @@ ul {
     width: 100%;
     color: #fff;
     padding: 10px;
-    background: blueviolet;
+    background: #5B2484;
+    font-weight: bold;
 }
 
 .QAFlashCard .answer .long {
     width: 100%;
     background-color: #fff;
     padding: 20px 20px 0 20px;
+    font-style: italic;
 }
+
 
 .QAFlashCard .answer .bonus {
     width: 100%;
@@ -90,7 +98,7 @@ ul {
     width: 100%;
     color: #fff;
     padding: 10px;
-    background: blueviolet;
+    background: #5B2484;
     border-bottom: solid 1px gray;
 }
 
@@ -105,7 +113,7 @@ ul {
     width: 100%;
     color: #fff;
     padding: 10px;
-    background: blueviolet;
+    background: #5B2484;
     border-bottom: solid 1px gray;
 }
 
@@ -147,6 +155,6 @@ ul {
     width: 100%;
     color: #fff;
     padding: 10px;
-    background: blueviolet;
+    background: #5B2484;
     border-bottom: solid 1px gray;
 }
