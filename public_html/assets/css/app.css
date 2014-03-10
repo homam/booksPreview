@@ -8,6 +8,11 @@ and open the template in the editor.
     Author     : Edgar Zakaryan <zakaryan.edgar@gmail.com>
 */
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
 #content {
     width: 320px;
     height: 500px;
@@ -53,28 +58,30 @@ and open the template in the editor.
 .QAFlashCard .answer .long {
     width: 100%;
     background-color: #fff;
+    padding: 20px 20px 0 20px;
 }
 
 .QAFlashCard .answer .bonus {
     width: 100%;
     background-color: #fff;
+    padding: 20px 20px 0 20px;
 }
 
 .QAFlashCard li {
     list-style: none;
 }
 
-.bonus[data-type='toDo'] li:before{
-    font-family: 'FontAwesome';
-    content: '\f10d';
+.bonus[data-type] li:before{
+    font-family: 'FontAwesome';    
     margin:0 5px 0 -15px;
 }
 
+.bonus[data-type='toDo'] li:before{
+    content: '\f10d';
+}
+
 .bonus[data-type='didYouKnow'] li:before{
-    /*display: none;*/
-    font-family: 'FontAwesome';
     content: '\f128';
-    margin:0 5px 0 -15px;
 }
 
 .QAFlashCard.end .title{
@@ -102,11 +109,13 @@ and open the template in the editor.
     border-bottom: solid 1px gray;
 }
 
-.simpleList li{
+.simpleList li,
+.list li{
     list-style: circle;
 }
 
-.simpleOList li{
+.simpleOList li,
+.olist li{
     list-style: decimal;
 }
 

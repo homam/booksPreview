@@ -4,9 +4,11 @@
     <div class="question content-allign"><p><%= questions[i].question %></p></div>
     <div class="answer">
         <div class="short content-allign">
-        <% for(j in questions[i].answer.short) {%>
-            <%= questions[i].answer.short[j] %>
-        <% } %>
+        <ul class="<%=questions[i].answer.long.type%>">
+            <% for(j in questions[i].answer.short.text) {%>
+                <li><%= questions[i].answer.short.text[j] %></li>
+            <% } %>
+        </ul>
         </div>
         <div class="long">
             
@@ -21,7 +23,7 @@
             <ul>
                 <li>
                     <% for(j in questions[i].answer.bonus.text) {%>
-                        <p><%= questions[i].answer.bonus.text[j] %></p>
+                        <%= questions[i].answer.bonus.text[j] %>
                     <% } %>
                 </li>
             </ul>

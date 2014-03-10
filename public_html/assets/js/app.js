@@ -1,33 +1,17 @@
-$(function() {
-   var content = $("content");
-   
-//   $('#content').on('click', '.answer', function(e) {
-//       e.stopPropagation();
-//       $(this).parent().hide();
-//       history.pushState(null, null, '&questionIndex=5');
-//   });
-    
-   $('#content').on('click', '.QAFlashCard', function(e) {
-       if(typeof $(this).data('action') !== 'undefined') {
-           $(this).hide();
-       } else {
-           $(this).children('.question').hide();
-           $(this).children('div.answer').show();
-       }
-   });
-   
-});
-
 var app = {
-    /*Path to hte XML file*/
+    // Path to hte XML file
     XMLdataPath: 'XMLdata/',
     
-    /*XML file name*/
+    // XML file name
     XMLFile: 'HTWFIP2BookSummary-en.xml',
     
+    // Content of the XML file
     XMLContent: '',
     
+    // Index of the current chapter
     chapterIndex: 0,
+    
+    // Index of the current question
     questionIndex: 0,
     
     init: function(chapterIndex, questionIndex) {
@@ -43,11 +27,24 @@ var app = {
     
     bindUIActions: function() {
         $('#content').on('click', '.answer', function(e) {
-            app.answerClickAction($(this), e);
+            app.changeQuestionAction($(this), e);
+        });
+        
+        $('#content').on('click', '.QAFlashCard', function(e) {
+            app.showAnswerAction($(this));
         });
     },
-      
-    answerClickAction: function(_this, e) {
+    
+    showAnswerAction: function(_this) {
+        if(typeof _this.data('action') !== 'undefined') {
+            _this.hide();
+        } else {
+            _this.children('.question').hide();
+            _this.children('div.answer').show();
+        }
+    },
+
+    changeQuestionAction: function(_this, e) {
         e.stopPropagation();
         _this.parent().removeClass('selected');
         _this.parent().next().addClass('selected');
@@ -98,9 +95,12 @@ var app = {
 
             data.questions[i].answer = {};
             data.questions[i].answer.short = {};
+            data.questions[i].answer.short.text = {};
+
+            data.questions[i].answer.short.type = $(this).find('short').attr('type');
             
             $(this).find('short').find('text').each(function(j) {
-                data.questions[i].answer.short[j] = $(this).text();
+                data.questions[i].answer.short.text[j] = $(this).text();
             });
             
             data.questions[i].answer.long = {};
