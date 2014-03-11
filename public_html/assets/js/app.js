@@ -73,9 +73,11 @@ var app = {
     },
     
     leftKeypressAction: function() {
-        this.questionIndex = Math.max(0, this.questionIndex - 1);
-        history.pushState(null, null, this.requestBuilder(this.chapterIndex + 1, this.questionIndex + 1));
-        this.historyWalkAction();
+        if (!(this.questionIndex == 0)) {
+            this.questionIndex = this.questionIndex - 1;
+            history.pushState(null, null, this.requestBuilder(this.chapterIndex + 1, this.questionIndex + 1));
+            this.historyWalkAction();    
+        }
     },
     
     rightKeypressAction: function() {
