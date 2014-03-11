@@ -34,6 +34,15 @@ var app = {
         window.addEventListener('popstate', function(event) {
             app.historyWalkAction();
         });
+        
+        $("body").keydown(function(e) {
+            if(e.keyCode == 37) { // left
+                app.leftKeypressAction();
+            }
+            else if(e.keyCode == 39) { // right
+                app.rightKeypressAction();
+            }
+        });
     },
     
     changeQuestionAction: function(_this, e) {
@@ -54,6 +63,21 @@ var app = {
     
         app.updateContent(chapterIndex - 1, questionIndex - 1);
         this.applyTransition();
+    },
+    
+    leftKeypressAction: function() {
+        this.questionIndex = Math.max(0, this.questionIndex - 1);
+        history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
+        this.historyWalkAction();
+    },
+    
+    rightKeypressAction: function() {
+        var count  = $("#content > div").length;
+        if ((parseInt(count/2) + 1) > this.questionIndex + 1) {
+            this.questionIndex = this.questionIndex + 1;
+            history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
+            this.historyWalkAction();
+        }
     },
     
     applyTransition: function() {
