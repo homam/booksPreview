@@ -21,6 +21,7 @@ var app = {
 
         this.parseXML();
         this.render(this.getChapter(this.chapterIndex));
+        this.applyTransition();
         
         this.bindUIActions();
     },
@@ -30,40 +31,45 @@ var app = {
             app.changeQuestionAction($(this), e);
         });
         
-        $('#content').on('click', '.question', function(e) {
-            app.showAnswerAction($(this));
-        });
-        
         window.addEventListener('popstate', function(event) {
             app.historyWalkAction();
         });
     },
     
-    showAnswerAction: function(_this) {
-        if(typeof _this.data('action') !== 'undefined') {
-            _this.removeClass('selected');
-        } else {
-            _this.removeClass('selected');
-            _this.next().addClass('selected');
-        }
-    },
-
     changeQuestionAction: function(_this, e) {
-        e.stopPropagation();
-        _this.removeClass('selected');
-        _this.next().addClass('selected');
         this.increaseQuestionIndex();
-        
         history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
     },
     
     historyWalkAction: function() {
         var url = purl(document.location.href);
+        var chapterIndex = 1;
+        var questionIndex = 1;
 
-        var chapterIndex = parseInt(url.param('chapterIndex'));
-        var questionIndex = parseInt(url.param('questionIndex'));
+        if(typeof url.param('chapterIndex') !== 'undefined')
+            chapterIndex = parseInt(url.param('chapterIndex'));
 
+        if(typeof url.param('questionIndex') !== 'undefined')
+            questionIndex = parseInt(url.param('questionIndex'));
+    
         app.updateContent(chapterIndex - 1, questionIndex - 1);
+        this.applyTransition();
+    },
+    
+    applyTransition: function() {
+        var count  = $("#content > div").length;
+        
+        $("#content > div").each(function(i, e){
+            if (!$(this).hasClass('end-chapter')) {
+                $(this).unbind("click").bind("click", function(){
+                    $(this).css("opacity", 0).bind("webkitTransitionEnd transitionend", function(){
+                            $(this).next().show();
+                            $(this).hide();
+                    });
+                }).removeAttr("style").css("opacity", 1).css("z-index", count - i);
+            }
+            (app.questionIndex * 2 === i) ? $(this).show() : $(this).hide();
+        });
     },
     
     /*Parses XML and returns it's content*/
@@ -112,7 +118,9 @@ var app = {
             data.questions[i].question = $(this).find('FCQuestion').text().replace(/\[{(.*)}]/, '');
 
             if (app.questionIndex === i)
-                data.questions[i].selected = 'selected';
+                data.questions[i].selected = "z-index:" + (i + 1) + "; opacity:1";
+            else
+                data.questions[i].selected = "z-index:'" + (i + 1) + "'; opacity:0";
 
             data.questions[i].answer = {};
             data.questions[i].answer.short = {};
