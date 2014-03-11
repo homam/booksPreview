@@ -38,6 +38,10 @@ var app = {
             app.changeQuestionAction($(this), e);
         });
         
+        $('#content').on("click", ".end-chapter .content, .end-chapter .title", function(e) {
+            app.changeChapterAction($(this), e);
+        })
+        
         window.addEventListener('popstate', function(event) {
             app.historyWalkAction();
         });
@@ -55,6 +59,15 @@ var app = {
     changeQuestionAction: function(_this, e) {
         this.increaseQuestionIndex();
         history.pushState(null, null, this.requestBuilder(this.chapterIndex + 1, this.questionIndex + 1));
+    },
+    
+    changeChapterAction: function(_this, e) {
+        var nextChapter = this.getNextChapter();
+        
+        if (nextChapter) {
+            this.updateContent(this.chapterIndex + 1, 1);
+            this.applyTransition();
+        }
     },
     
     historyWalkAction: function() {
@@ -77,6 +90,10 @@ var app = {
             this.questionIndex = this.questionIndex - 1;
             history.pushState(null, null, this.requestBuilder(this.chapterIndex + 1, this.questionIndex + 1));
             this.historyWalkAction();    
+        } else if (this.chapterIndex != 0) {
+            var nextChapter = this.getNextChapter(this.chapterIndex - 2);
+            history.pushState(null, null, this.requestBuilder(this.chapterIndex, nextChapter.find('QAFlashCard').length + 1));
+            this.historyWalkAction();    
         }
     },
     
@@ -86,6 +103,12 @@ var app = {
             this.questionIndex = this.questionIndex + 1;
             history.pushState(null, null, this.requestBuilder(this.chapterIndex + 1, this.questionIndex + 1));
             this.historyWalkAction();
+        } else {
+            var nextChapter = this.getNextChapter(this.chapterIndex);
+            if (nextChapter) {
+                history.pushState(null, null, this.requestBuilder(this.chapterIndex + 2, 1));
+                this.historyWalkAction();
+            }
         }
     },
     
@@ -127,8 +150,9 @@ var app = {
         return chapter;
     },
     
-    getNextChapter: function() {
-        var chapter = $(app.XMLContent).find('chapter').eq(this.chapterIndex + 1);
+    getNextChapter: function(chapterIndex) {
+        var chapterIndex = chapterIndex || this.chapterIndex;
+        var chapter = $(app.XMLContent).find('chapter').eq(chapterIndex + 1);
         return (chapter.length) ? chapter : null;
     },
     
