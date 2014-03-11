@@ -104,15 +104,13 @@ var app = {
     },
     
     /*Parses XML and returns it's content*/
-    parseXML: function(chapterIndex) {
-        var url = purl(window.location.href);
-        
+    parseXML: function(chapterIndex) {        
         $.ajax({
             type: "GET",
             url: this.XMLdataPath,
             data: {
-                courseId: url.param('courseId'),
-                lang: url.param('lang')
+                courseId: this.courseId,
+                lang: this.lang
             },
             dataType: "xml",
             async: false,
