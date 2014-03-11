@@ -147,6 +147,9 @@ li {
 .end-chapter .icons .block {
     width: 30%;
     display: inline-block;
+    color: white;
+    text-align: center;
+    font-weight: bold;
 }
 
 /*List styles*/
