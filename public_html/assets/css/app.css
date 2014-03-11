@@ -1,16 +1,25 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Mar 9, 2014, 11:40:24 AM
-    Author     : Edgar Zakaryan <zakaryan.edgar@gmail.com>
-*/
-
+/*Reset Styles*/
 ul {
     padding: 0;
     margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+}
+
+/*Common*/
+.content-allign {
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal; 
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center;
 }
 
 #content {
@@ -19,11 +28,21 @@ ul {
     background: #5B2484;
 }
 
-.QAFlashCard {
-    height: 100%;
+.selected {
+    z-index: 1000!important;
+}
+
+/*Question block*/
+.question{
     width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
     background: #5B2484;
+    border-bottom: solid 1px gray;
     position: absolute;
+    z-index: 0;
 }
 
 .question p{
@@ -36,48 +55,37 @@ ul {
     color: #8C52B9;
 }
 
-.QAFlashCard .answer {
-    display: none;
-    background-color: #fff;
+/*Answer block*/
+.answer {
     height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 0;
+
 }
 
-.content-allign {
-    text-align: center;
-    vertical-align: middle;
-    line-height: normal; 
-    display: flex;
-    justify-content: center; /* align horizontal */
-    align-items: center;
-}
-
-.QAFlashCard .answer .short{
+.answer .short{
     min-height: 100px;
     font-size: 20px;
-    width: 100%;
+    font-weight: bold;
     color: #fff;
     padding: 10px;
     background: #5B2484;
-    font-weight: bold;
 }
 
-.QAFlashCard .answer .long {
-    width: 100%;
+.answer .long {
     background-color: #fff;
     padding: 20px 20px 0 20px;
     font-style: italic;
 }
 
-.QAFlashCard .answer .bonus {
-    width: 100%;
+.answer .bonus {
     background-color: #fff;
     padding: 20px 20px 0 20px;
 }
 
-.QAFlashCard li {
-    list-style: none;
-}
-
+/*Bonus block*/
 .bonus[data-type] li:before{
     font-family: 'FontAwesome';
     margin:0 5px 0 -15px;
@@ -91,22 +99,24 @@ ul {
     content: '\f128';
 }
 
-.QAFlashCard.end .title{
+/*End chapter block*/
+.end-chapter {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.end-chapter .title{
+    width: 100%;
     height: 20%;
     font-size: 20px;
-    width: 100%;
     color: #fff;
     padding: 10px;
     background: #5B2484;
     border-bottom: solid 1px gray;
 }
 
-.QAFlashCard.end .title p{
-    font-size: 20px;
-    color: #fff;
-}
-
-.QAFlashCard.end .content{
+.end-chapter .content{
     height: 60%;
     font-size: 20px;
     width: 100%;
@@ -116,6 +126,22 @@ ul {
     border-bottom: solid 1px gray;
 }
 
+.end-chapter .icons{
+    height: 20%;
+    background: #5B2484;
+}
+
+.end-chapter .icons i{
+    font-size: 30px;
+    color: #fff;
+}
+
+.end-chapter .icons .block {
+    width: 30%;
+    display: inline-block;
+}
+
+/*List styles*/
 .simpleList li,
 .list li{
     list-style: circle;
@@ -124,36 +150,4 @@ ul {
 .simpleOList li,
 .olist li{
     list-style: decimal;
-}
-
-.QAFlashCard.selected {
-    z-index: 1000;
-}
-
-.clear {
-    clear: both;
-}
-
-.icons {
-    height: 20%;
-}
-
-.icons i{
-    font-size: 30px;
-    color: #fff;
-}
-
-.block {
-    width: 30%;
-    display: inline-block;
-}
-
-.question{
-    height: 100%;
-    font-size: 20px;
-    width: 100%;
-    color: #fff;
-    padding: 10px;
-    background: #5B2484;
-    border-bottom: solid 1px gray;
 }

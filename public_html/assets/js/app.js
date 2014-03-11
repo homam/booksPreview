@@ -30,7 +30,7 @@ var app = {
             app.changeQuestionAction($(this), e);
         });
         
-        $('#content').on('click', '.QAFlashCard', function(e) {
+        $('#content').on('click', '.question', function(e) {
             app.showAnswerAction($(this));
         });
         
@@ -41,17 +41,17 @@ var app = {
     
     showAnswerAction: function(_this) {
         if(typeof _this.data('action') !== 'undefined') {
-            _this.hide();
+            _this.removeClass('selected');
         } else {
-            _this.children('.question').hide();
-            _this.children('div.answer').show();
+            _this.removeClass('selected');
+            _this.next().addClass('selected');
         }
     },
 
     changeQuestionAction: function(_this, e) {
         e.stopPropagation();
-        _this.parent().removeClass('selected');
-        _this.parent().next().addClass('selected');
+        _this.removeClass('selected');
+        _this.next().addClass('selected');
         this.increaseQuestionIndex();
         
         history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
