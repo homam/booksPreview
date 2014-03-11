@@ -37,7 +37,7 @@
         <% if(nextChapter.exists) { %>
         <ul>
             <li>
-                <a href="?chapterIndex=<%=nextChapter.index%>">
+                <a href="<%=nextChapter.request%>">
                     <i class="fa fa-arrow-right"></i>
                 </a>
             </li>
@@ -48,7 +48,7 @@
     </div>
     <div class="icons">
         <div class="block">
-            <a href="?chapterIndex=<%=chapterIndex%>">
+            <a href="<%=chapterRequest%>">
                 <i class="fa fa-repeat"></i><br>
             </a>
             Repeat this chapter

@@ -1,9 +1,12 @@
 var app = {
     // Path to hte XML file
-    XMLdataPath: 'XMLdata/',
+    XMLdataPath: 'http://textbookce.mobileacademy.com/Course/GetXML/',
     
-    // XML file name
-    XMLFile: 'HTWFIP2BookSummary-en.xml',
+    // Course Id
+    courseId: 0,
+    
+    // XML content language
+    lang: '',
     
     // Content of the XML file
     XMLContent: '',
@@ -15,9 +18,13 @@ var app = {
     questionIndex: 0,
     
     init: function(chapterIndex, questionIndex) {
+        var url = purl();
         
         this.chapterIndex  = parseInt(chapterIndex);
         this.questionIndex = parseInt(questionIndex);
+
+        this.courseId = url.param('courseId');
+        this.lang     = url.param('lang');
 
         this.parseXML();
         this.render(this.getChapter(this.chapterIndex));
@@ -47,7 +54,7 @@ var app = {
     
     changeQuestionAction: function(_this, e) {
         this.increaseQuestionIndex();
-        history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
+        history.pushState(null, null, this.requestBuilder(this.chapterIndex + 1, this.questionIndex + 1));
     },
     
     historyWalkAction: function() {
@@ -67,7 +74,7 @@ var app = {
     
     leftKeypressAction: function() {
         this.questionIndex = Math.max(0, this.questionIndex - 1);
-        history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
+        history.pushState(null, null, this.requestBuilder(this.chapterIndex + 1, this.questionIndex + 1));
         this.historyWalkAction();
     },
     
@@ -75,7 +82,7 @@ var app = {
         var count  = $("#content > div").length;
         if ((parseInt(count/2) + 1) > this.questionIndex + 1) {
             this.questionIndex = this.questionIndex + 1;
-            history.pushState(null, null, '?chapterIndex=' + (this.chapterIndex + 1) + '&questionIndex=' + (this.questionIndex + 1));
+            history.pushState(null, null, this.requestBuilder(this.chapterIndex + 1, this.questionIndex + 1));
             this.historyWalkAction();
         }
     },
@@ -98,9 +105,15 @@ var app = {
     
     /*Parses XML and returns it's content*/
     parseXML: function(chapterIndex) {
+        var url = purl(window.location.href);
+        
         $.ajax({
             type: "GET",
-            url: this.XMLdataPath + this.XMLFile,
+            url: this.XMLdataPath,
+            data: {
+                courseId: url.param('courseId'),
+                lang: url.param('lang')
+            },
             dataType: "xml",
             async: false,
             success: function(xmlDoc) {
@@ -128,6 +141,11 @@ var app = {
         this.questionIndex = questionIndex;
         
         this.render(this.getChapter(this.chapterIndex));
+    },
+    
+    requestBuilder: function(chapterIndex, questionIndex) {
+        return '?courseId=' + this.courseId + '&lang=' + this.lang + 
+                '&chapterIndex=' + chapterIndex + '&questionIndex=' + questionIndex;
     },
     
     render: function(chapterXML) {
@@ -179,13 +197,13 @@ var app = {
             });
         });
         
-        data.chapterIndex = this.chapterIndex + 1;
+        data.chapterRequest = this.requestBuilder(this.chapterIndex + 1, 1);
         
         var nextChapter = this.getNextChapter();
         data.nextChapter = {};
         if(nextChapter !== null) {
             data.nextChapter.exists = true;
-            data.nextChapter.index = this.chapterIndex + 2;
+            data.nextChapter.request = this.requestBuilder(this.chapterIndex + 2, 1);
             data.nextChapter.title = nextChapter.children('title').text();
         } else {
             data.nextChapter.exists = false;
