@@ -119,12 +119,17 @@ var app = {
             if (!$(this).hasClass('end-chapter')) {
                 $(this).unbind("click").bind("click", function(){
                     $(this).css("opacity", 0).bind("webkitTransitionEnd transitionend", function(){
-                            $(this).next().show();
+                            $(this).next().css("opacity", 1);
                             $(this).hide();
                     });
-                }).removeAttr("style").css("opacity", 1).css("z-index", count - i);
+                }).removeAttr("style").css("opacity", 0).css("z-index", count - i);
             }
-            (app.questionIndex * 2 === i) ? $(this).show() : $(this).hide();
+            
+            if (i < app.questionIndex * 2) {
+                $(this).hide();
+            }
+            
+            (app.questionIndex * 2 === i) ? $(this).css("opacity", 1).css("z-index", count - i) : $(this).css("opacity", 0).css("z-index", count - i);
         });
     },
     
