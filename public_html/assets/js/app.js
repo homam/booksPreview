@@ -27,7 +27,7 @@ var app = {
         this.lang     = url.param('lang');
 
         this.parseXML();
-        this.render(this.getChapter(this.chapterIndex));
+        this.render(this.getChapter(this.chapterIndex, this.questionIndex));
         this.applyTransition();
         
         this.bindUIActions();
@@ -38,9 +38,9 @@ var app = {
             app.changeQuestionAction($(this), e);
         });
         
-        $('#content').on("click", ".end-chapter .content, .end-chapter .title", function(e) {
-            app.changeChapterAction($(this), e);
-        })
+        // $('#content').on("click", ".end-chapter .content, .end-chapter .title", function(e) {
+        //     app.changeChapterAction($(this), e);
+        // })
         
         window.addEventListener('popstate', function(event) {
             app.historyWalkAction();
@@ -169,7 +169,7 @@ var app = {
         this.chapterIndex = chapterIndex;
         this.questionIndex = questionIndex;
         
-        this.render(this.getChapter(this.chapterIndex));
+        this.render(this.getChapter(this.chapterIndex), this.questionIndex);
     },
     
     requestBuilder: function(chapterIndex, questionIndex) {
@@ -177,52 +177,54 @@ var app = {
                 '&chapterIndex=' + chapterIndex + '&questionIndex=' + questionIndex;
     },
     
-    render: function(chapterXML) {
+    render: function(chapterXML, currentQuestionIndex) {
         
         var data = {};
         data.title = chapterXML.children('title').text();
       
         chapterXML.find('QAFlashCard').each(function(i){
             data.questions = data.questions || {};
-            data.questions[i] = {};
+            var q = {}
+            data.questions[i] = q;
+
             //clean out the comment from the text
-            data.questions[i].question = $(this).find('FCQuestion').text().replace(/\[{(.*)}]/, '');
+            q.question = $(this).find('FCQuestion').text().replace(/\[{(.*)}]/, '');
 
-            if (app.questionIndex === i)
-                data.questions[i].selected = "z-index:" + (i + 1) + "; opacity:1";
+            if (currentQuestionIndex === i)
+                q.selected = "z-index:" + (i + 1) + "; opacity:1";
             else
-                data.questions[i].selected = "z-index:'" + (i + 1) + "'; opacity:0";
+                q.selected = "z-index:'" + (i + 1) + "'; opacity:0";
 
-            data.questions[i].answer = {};
-            data.questions[i].answer.short = {};
-            data.questions[i].answer.short.text = {};
+            q.answer = {};
+            q.answer.short = {};
+            q.answer.short.text = {};
 
-            data.questions[i].answer.short.type = $(this).find('short').attr('type');
+            q.answer.short.type = $(this).find('short').attr('type');
             
             $(this).find('short').find('text').each(function(j) {
-                data.questions[i].answer.short.text[j] = $(this).text();
+                q.answer.short.text[j] = $(this).text();
             });
             
-            data.questions[i].answer.long = {};
-            data.questions[i].answer.long.text = {};
+            q.answer.long = {};
+            q.answer.long.text = {};
             $(this).find('long').find('text').each(function(j) {
-                data.questions[i].answer.long.text[j] = $(this).text();
+                q.answer.long.text[j] = $(this).text();
             });
             $(this).find('long').find('SimpleList').find('item').each(function(j) {
-                data.questions[i].answer.long.type = 'simpleList';
-                data.questions[i].answer.long.text[j] = $(this).text();
+                q.answer.long.type = 'simpleList';
+                q.answer.long.text[j] = $(this).text();
             });            
             $(this).find('long').find('SimpleOList').find('item').each(function(j) {
-                data.questions[i].answer.long.type = 'simpleOList';
-                data.questions[i].answer.long.text[j] = $(this).text();
+                q.answer.long.type = 'simpleOList';
+                q.answer.long.text[j] = $(this).text();
             });
             
-            data.questions[i].answer.bonus = {};
-            data.questions[i].answer.bonus.text = {};
-            data.questions[i].answer.bonus.type = $(this).find('bonus').attr('type');
+            q.answer.bonus = {};
+            q.answer.bonus.text = {};
+            q.answer.bonus.type = $(this).find('bonus').attr('type');
             
             $(this).find('bonus').find('text').each(function(j) {
-                data.questions[i].answer.bonus.text[j] = $(this).text();
+                q.answer.bonus.text[j] = $(this).text();
             });
         });
         
@@ -238,6 +240,7 @@ var app = {
             data.nextChapter.exists = false;
         }
         
+        console.log(data);
         html = new EJS({url: 'templates/chapter.ejs'}).render(data);
         
         $("#content").html(html);
