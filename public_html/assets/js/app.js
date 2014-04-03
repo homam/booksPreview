@@ -210,11 +210,11 @@ var app = {
             $(this).find('long').find('text').each(function(j) {
                 q.answer.long.text[j] = $(this).text();
             });
-            $(this).find('long').find('SimpleList').find('item').each(function(j) {
+            $(this).find('long').find('simpleList').find('item').each(function(j) {
                 q.answer.long.type = 'simpleList';
                 q.answer.long.text[j] = $(this).text();
             });            
-            $(this).find('long').find('SimpleOList').find('item').each(function(j) {
+            $(this).find('long').find('simpleOList').find('item').each(function(j) {
                 q.answer.long.type = 'simpleOList';
                 q.answer.long.text[j] = $(this).text();
             });
