@@ -1,3 +1,7 @@
+String.prototype.clean = function() {
+    return this.replace(/\[\{\(c\d+\)\}\]/, '')
+}
+
 var app = {
     // Path to hte XML file
     XMLdataPath: 'http://textbookce.mobileacademy.com/Course/GetXML/',
@@ -26,6 +30,10 @@ var app = {
         this.courseId = url.param('courseId');
         this.lang     = url.param('lang');
 
+        //TODO: don't use functions with side-effects.
+        // It should be like:
+        // xmlDoc = this.parseXML(xmlPath);
+        // this.redner(xmlDoc)
         this.parseXML();
         this.render(this.getChapter(this.chapterIndex, this.questionIndex));
         this.applyTransition();
@@ -180,7 +188,7 @@ var app = {
     render: function(chapterXML, currentQuestionIndex) {
         
         var data = {};
-        data.title = chapterXML.children('title').text();
+        data.title = chapterXML.children('title').text().clean();
       
         chapterXML.find('QAFlashCard').each(function(i){
             data.questions = data.questions || {};
@@ -188,7 +196,7 @@ var app = {
             data.questions[i] = q;
 
             //clean out the comment from the text
-            q.question = $(this).find('FCQuestion').text().replace(/\[{(.*)}]/, '');
+            q.question = $(this).find('FCQuestion').text().clean();
 
             if (currentQuestionIndex === i)
                 q.selected = "z-index:" + (i + 1) + "; opacity:1";
@@ -202,21 +210,21 @@ var app = {
             q.answer.short.type = $(this).find('short').attr('type');
             
             $(this).find('short').find('text').each(function(j) {
-                q.answer.short.text[j] = $(this).text();
+                q.answer.short.text[j] = $(this).text().clean();
             });
             
             q.answer.long = {};
             q.answer.long.text = {};
             $(this).find('long').find('text').each(function(j) {
-                q.answer.long.text[j] = $(this).text();
+                q.answer.long.text[j] = $(this).text().clean();
             });
             $(this).find('long').find('simpleList').find('item').each(function(j) {
                 q.answer.long.type = 'simpleList';
-                q.answer.long.text[j] = $(this).text();
+                q.answer.long.text[j] = $(this).text().clean();
             });            
             $(this).find('long').find('simpleOList').find('item').each(function(j) {
                 q.answer.long.type = 'simpleOList';
-                q.answer.long.text[j] = $(this).text();
+                q.answer.long.text[j] = $(this).text().clean();
             });
             
             q.answer.bonus = {};
@@ -224,7 +232,7 @@ var app = {
             q.answer.bonus.type = $(this).find('bonus').attr('type');
             
             $(this).find('bonus').find('text').each(function(j) {
-                q.answer.bonus.text[j] = $(this).text();
+                q.answer.bonus.text[j] = $(this).text().clean();
             });
         });
         
@@ -235,7 +243,7 @@ var app = {
         if(nextChapter !== null) {
             data.nextChapter.exists = true;
             data.nextChapter.request = this.requestBuilder(this.chapterIndex + 2, 1);
-            data.nextChapter.title = nextChapter.children('title').text();
+            data.nextChapter.title = nextChapter.children('title').text().clean();
         } else {
             data.nextChapter.exists = false;
         }
